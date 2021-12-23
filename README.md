@@ -30,7 +30,7 @@
 Donations would be more than welcome :)
 
 **KBZ Pay** : 09 753 479 007 <br>
-**Wave Money** : 09 753 479 00
+**Wave Money** : 09 753 479 007
 
 ## Get in touch
 Phone: [09 753 479 007](09753479007) <br>
