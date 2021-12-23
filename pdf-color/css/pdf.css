@@ -1,0 +1,2434 @@
+/*
+|
+|------------------
+| Docs :
+| Version : 1.0.0
+| Auth : SLH
+| Copyright : 2021
+|-----------------
+|
+*/
+:root {
+  --pdf-slate-50: #f8fafc!important;
+  --pdf-slate-100: #f1f5f9!important;
+  --pdf-slate-200: #e2e8f0!important;
+  --pdf-slate-300: #cbd5e1!important;
+  --pdf-slate-400: #94a3b8!important;
+  --pdf-slate-500: #64748b!important;
+  --pdf-slate-600: #475569!important;
+  --pdf-slate-700: #334155!important;
+  --pdf-slate-800: #1e293b!important;
+  --pdf-slate-900: #0f172a!important;
+  --pdf-gray-50: #f9fafb!important;
+  --pdf-gray-100: #f3f4f6!important;
+  --pdf-gray-200: #e5e7eb!important;
+  --pdf-gray-300: #d1d5db!important;
+  --pdf-gray-400: #9ca3af!important;
+  --pdf-gray-500: #6b7280!important;
+  --pdf-gray-600: #4b5563!important;
+  --pdf-gray-700: #374151!important;
+  --pdf-gray-800: #1f2937!important;
+  --pdf-gray-900: #111827!important;
+  --pdf-zinc-50: #fafafa!important;
+  --pdf-zinc-100: #f4f4f5!important;
+  --pdf-zinc-200: #e4e4e7!important;
+  --pdf-zinc-300: #d4d4d8!important;
+  --pdf-zinc-400: #a1a1aa!important;
+  --pdf-zinc-500: #71717a!important;
+  --pdf-zinc-600: #52525b!important;
+  --pdf-zinc-700: #3f3f46!important;
+  --pdf-zinc-800: #27272a!important;
+  --pdf-zinc-900: #18181b!important;
+  --pdf-neutral-50: #fafafa!important;
+  --pdf-neutral-100: #f5f5f5!important;
+  --pdf-neutral-200: #e5e5e5!important;
+  --pdf-neutral-300: #d4d4d4!important;
+  --pdf-neutral-400: #a3a3a3!important;
+  --pdf-neutral-500: #737373!important;
+  --pdf-neutral-600: #525252!important;
+  --pdf-neutral-700: #404040!important;
+  --pdf-neutral-800: #262626!important;
+  --pdf-neutral-900: #171717!important;
+  --pdf-stone-50: #fafaf9!important;
+  --pdf-stone-100: #f5f5f4!important;
+  --pdf-stone-200: #e7e5e4!important;
+  --pdf-stone-300: #d6d3d1!important;
+  --pdf-stone-400: #a8a29e!important;
+  --pdf-stone-500: #78716c!important;
+  --pdf-stone-600: #57534e!important;
+  --pdf-stone-700: #44403c!important;
+  --pdf-stone-800: #292524!important;
+  --pdf-stone-900: #1c1917!important;
+  --pdf-red-50: #fef2f2!important;
+  --pdf-red-100: #fee2e2!important;
+  --pdf-red-200: #fecaca!important;
+  --pdf-red-300: #fca5a5!important;
+  --pdf-red-400: #f87171!important;
+  --pdf-red-500: #ef4444!important;
+  --pdf-red-600: #dc2626!important;
+  --pdf-red-700: #b91c1c!important;
+  --pdf-red-800: #991b1b!important;
+  --pdf-red-900: #7f1d1d!important;
+  --pdf-orange-50: #fff7ed!important;
+  --pdf-orange-100: #ffedd5!important;
+  --pdf-orange-200: #fed7aa!important;
+  --pdf-orange-300: #fdba74!important;
+  --pdf-orange-400: #fb923c!important;
+  --pdf-orange-500: #f97316!important;
+  --pdf-orange-600: #ea580c!important;
+  --pdf-orange-700: #c2410c!important;
+  --pdf-orange-800: #9a3412!important;
+  --pdf-orange-900: #7c2d12!important;
+  --pdf-amber-50: #fffbeb!important;
+  --pdf-amber-100: #fef3c7!important;
+  --pdf-amber-200: #fde68a!important;
+  --pdf-amber-300: #fcd34d!important;
+  --pdf-amber-400: #fbbf24!important;
+  --pdf-amber-500: #f59e0b!important;
+  --pdf-amber-600: #d97706!important;
+  --pdf-amber-700: #b45309!important;
+  --pdf-amber-800: #92400e!important;
+  --pdf-amber-900: #78350f!important;
+  --pdf-yellow-50: #fefce8!important;
+  --pdf-yellow-100: #fef9c3!important;
+  --pdf-yellow-200: #fef08a!important;
+  --pdf-yellow-300: #fde047!important;
+  --pdf-yellow-400: #facc15!important;
+  --pdf-yellow-500: #eab308!important;
+  --pdf-yellow-600: #ca8a04!important;
+  --pdf-yellow-700: #a16207!important;
+  --pdf-yellow-800: #854d0e!important;
+  --pdf-yellow-900: #713f12!important;
+  --pdf-lime-50: #f7fee7!important;
+  --pdf-lime-100: #ecfccb!important;
+  --pdf-lime-200: #d9f99d!important;
+  --pdf-lime-300: #bef264!important;
+  --pdf-lime-400: #a3e635!important;
+  --pdf-lime-500: #84cc16!important;
+  --pdf-lime-600: #65a30d!important;
+  --pdf-lime-700: #4d7c0f!important;
+  --pdf-lime-800: #3f6212!important;
+  --pdf-lime-900: #365314!important;
+  --pdf-green-50: #f0fdf4!important;
+  --pdf-green-100: #dcfce7!important;
+  --pdf-green-200: #bbf7d0!important;
+  --pdf-green-300: #86efac!important;
+  --pdf-green-400: #4ade80!important;
+  --pdf-green-500: #22c55e!important;
+  --pdf-green-600: #16a34a!important;
+  --pdf-green-700: #15803d!important;
+  --pdf-green-800: #166534!important;
+  --pdf-green-900: #14532d!important;
+  --pdf-emerald-50: #ecfdf5!important;
+  --pdf-emerald-100: #d1fae5!important;
+  --pdf-emerald-200: #a7f3d0!important;
+  --pdf-emerald-300: #6ee7b7!important;
+  --pdf-emerald-400: #34d399!important;
+  --pdf-emerald-500: #10b981!important;
+  --pdf-emerald-600: #059669!important;
+  --pdf-emerald-700: #047857!important;
+  --pdf-emerald-800: #065f46!important;
+  --pdf-emerald-900: #064e3b!important;
+  --pdf-teal-50: #f0fdfa!important;
+  --pdf-teal-100: #ccfbf1!important;
+  --pdf-teal-200: #99f6e4!important;
+  --pdf-teal-300: #5eead4!important;
+  --pdf-teal-400: #2dd4bf!important;
+  --pdf-teal-500: #14b8a6!important;
+  --pdf-teal-600: #0d9488!important;
+  --pdf-teal-700: #0f766e!important;
+  --pdf-teal-800: #115e59!important;
+  --pdf-teal-900: #134e4a!important;
+  --pdf-cyan-50: #ecfeff!important;
+  --pdf-cyan-100: #cffafe!important;
+  --pdf-cyan-200: #a5f3fc!important;
+  --pdf-cyan-300: #67e8f9!important;
+  --pdf-cyan-400: #22d3ee!important;
+  --pdf-cyan-500: #06b6d4!important;
+  --pdf-cyan-600: #0891b2!important;
+  --pdf-cyan-700: #0e7490!important;
+  --pdf-cyan-800: #155e75!important;
+  --pdf-cyan-900: #164e63!important;
+  --pdf-sky-50: #f0f9ff!important;
+  --pdf-sky-100: #e0f2fe!important;
+  --pdf-sky-200: #bae6fd!important;
+  --pdf-sky-300: #7dd3fc!important;
+  --pdf-sky-400: #38bdf8!important;
+  --pdf-sky-500: #0ea5e9!important;
+  --pdf-sky-600: #0284c7!important;
+  --pdf-sky-700: #0369a1!important;
+  --pdf-sky-800: #075985!important;
+  --pdf-sky-900: #0c4a6e!important;
+  --pdf-blue-50: #eff6ff!important;
+  --pdf-blue-100: #dbeafe!important;
+  --pdf-blue-200: #bfdbfe!important;
+  --pdf-blue-300: #93c5fd!important;
+  --pdf-blue-400: #60a5fa!important;
+  --pdf-blue-500: #3b82f6!important;
+  --pdf-blue-600: #2563eb!important;
+  --pdf-blue-700: #1d4ed8!important;
+  --pdf-blue-800: #1e40af!important;
+  --pdf-blue-900: #1e3a8a!important;
+  --pdf-indigo-50: #eef2ff!important;
+  --pdf-indigo-100: #e0e7ff!important;
+  --pdf-indigo-200: #c7d2fe!important;
+  --pdf-indigo-300: #a5b4fc!important;
+  --pdf-indigo-400: #818cf8!important;
+  --pdf-indigo-500: #6366f1!important;
+  --pdf-indigo-600: #4f46e5!important;
+  --pdf-indigo-700: #4338ca!important;
+  --pdf-indigo-800: #3730a3!important;
+  --pdf-indigo-900: #312e81!important;
+  --pdf-violet-50: #f5f3ff!important;
+  --pdf-violet-100: #ede9fe!important;
+  --pdf-violet-200: #ddd6fe!important;
+  --pdf-violet-300: #c4b5fd!important;
+  --pdf-violet-400: #a78bfa!important;
+  --pdf-violet-500: #8b5cf6!important;
+  --pdf-violet-600: #7c3aed!important;
+  --pdf-violet-700: #6d28d9!important;
+  --pdf-violet-800: #5b21b6!important;
+  --pdf-violet-900: #4c1d95!important;
+  --pdf-purple-50: #faf5ff!important;
+  --pdf-purple-100: #f3e8ff!important;
+  --pdf-purple-200: #e9d5ff!important;
+  --pdf-purple-300: #d8b4fe!important;
+  --pdf-purple-400: #c084fc!important;
+  --pdf-purple-500: #a855f7!important;
+  --pdf-purple-600: #9333ea!important;
+  --pdf-purple-700: #7e22ce!important;
+  --pdf-purple-800: #6b21a8!important;
+  --pdf-purple-900: #581c87!important;
+  --pdf-fuchsia-50: #fdf4ff!important;
+  --pdf-fuchsia-100: #fae8ff!important;
+  --pdf-fuchsia-200: #f5d0fe!important;
+  --pdf-fuchsia-300: #f0abfc!important;
+  --pdf-fuchsia-400: #e879f9!important;
+  --pdf-fuchsia-500: #d946ef!important;
+  --pdf-fuchsia-600: #c026d3!important;
+  --pdf-fuchsia-700: #a21caf!important;
+  --pdf-fuchsia-800: #86198f!important;
+  --pdf-fuchsia-900: #701a75!important;
+  --pdf-pink-50: #fdf2f8!important;
+  --pdf-pink-100: #fce7f3!important;
+  --pdf-pink-200: #fbcfe8!important;
+  --pdf-pink-300: #f9a8d4!important;
+  --pdf-pink-400: #f472b6!important;
+  --pdf-pink-500: #ec4899!important;
+  --pdf-pink-600: #db2777!important;
+  --pdf-pink-700: #be185d!important;
+  --pdf-pink-800: #9d174d!important;
+  --pdf-pink-900: #831843!important;
+  --pdf-rose-50: #fdf2f8!important;
+  --pdf-rose-100: #fce7f3!important;
+  --pdf-rose-200: #fbcfe8!important;
+  --pdf-rose-300: #f9a8d4!important;
+  --pdf-rose-400: #f472b6!important;
+  --pdf-rose-500: #ec4899!important;
+  --pdf-rose-600: #db2777!important;
+  --pdf-rose-700: #be185d!important;
+  --pdf-rose-800: #9d174d!important;
+  --pdf-rose-900: #831843!important;
+}
+
+.pdf-text-slat-50 {
+  color: #f8fafc !important;
+}
+.pdf-bg-slat-50 {
+  background-color: #f8fafc !important;
+}
+.pdf-border-slat-50 {
+  border-color: #f8fafc !important;
+}
+
+.pdf-text-slat-100 {
+  color: #f1f5f9 !important;
+}
+.pdf-bg-slat-100 {
+  background-color: #f1f5f9 !important;
+}
+.pdf-border-slat-100 {
+  border-color: #f1f5f9 !important;
+}
+
+.pdf-text-slat-200 {
+  color: #e2e8f0 !important;
+}
+.pdf-bg-slat-200 {
+  background-color: #e2e8f0 !important;
+}
+.pdf-border-slat-200 {
+  border-color: #e2e8f0 !important;
+}
+
+.pdf-text-slat-300 {
+  color: #cbd5e1 !important;
+}
+.pdf-bg-slat-300 {
+  background-color: #cbd5e1 !important;
+}
+.pdf-border-slat-300 {
+  border-color: #cbd5e1 !important;
+}
+
+.pdf-text-slat-400 {
+  color: #94a3b8 !important;
+}
+.pdf-bg-slat-400 {
+  background-color: #94a3b8 !important;
+}
+.pdf-border-slat-400 {
+  border-color: #94a3b8 !important;
+}
+
+.pdf-text-slat-500 {
+  color: #64748b !important;
+}
+.pdf-bg-slat-500 {
+  background-color: #64748b !important;
+}
+.pdf-border-slat-500 {
+  border-color: #64748b !important;
+}
+
+.pdf-text-slat-600 {
+  color: #475569 !important;
+}
+.pdf-bg-slat-600 {
+  background-color: #475569 !important;
+}
+.pdf-border-slat-600 {
+  border-color: #475569 !important;
+}
+
+.pdf-text-slat-700 {
+  color: #334155 !important;
+}
+.pdf-bg-slat-700 {
+  background-color: #334155 !important;
+}
+.pdf-border-slat-700 {
+  border-color: #334155 !important;
+}
+
+.pdf-text-slat-800 {
+  color: #1e293b !important;
+}
+.pdf-bg-slat-800 {
+  background-color: #1e293b !important;
+}
+.pdf-border-slat-800 {
+  border-color: #1e293b !important;
+}
+
+.pdf-text-slat-900 {
+  color: #0f172a !important;
+}
+.pdf-bg-slat-900 {
+  background-color: #0f172a !important;
+}
+.pdf-border-slat-900 {
+  border-color: #0f172a !important;
+}
+
+.pdf-text-gray-50 {
+  color: #f9fafb !important;
+}
+.pdf-bg-gray-50 {
+  background-color: #f9fafb !important;
+}
+.pdf-border-gray-50 {
+  border-color: #f9fafb !important;
+}
+
+.pdf-text-gray-100 {
+  color: #f3f4f6 !important;
+}
+.pdf-bg-gray-100 {
+  background-color: #f3f4f6 !important;
+}
+.pdf-border-gray-100 {
+  border-color: #f3f4f6 !important;
+}
+
+.pdf-text-gray-200 {
+  color: #e5e7eb !important;
+}
+.pdf-bg-gray-200 {
+  background-color: #e5e7eb !important;
+}
+.pdf-border-gray-200 {
+  border-color: #e5e7eb !important;
+}
+
+.pdf-text-gray-300 {
+  color: #d1d5db !important;
+}
+.pdf-bg-gray-300 {
+  background-color: #d1d5db !important;
+}
+.pdf-border-gray-300 {
+  border-color: #d1d5db !important;
+}
+
+.pdf-text-gray-400 {
+  color: #9ca3af !important;
+}
+.pdf-bg-gray-400 {
+  background-color: #9ca3af !important;
+}
+.pdf-border-gray-400 {
+  border-color: #9ca3af !important;
+}
+
+.pdf-text-gray-500 {
+  color: #6b7280 !important;
+}
+.pdf-bg-gray-500 {
+  background-color: #6b7280 !important;
+}
+.pdf-border-gray-500 {
+  border-color: #6b7280 !important;
+}
+
+.pdf-text-gray-600 {
+  color: #4b5563 !important;
+}
+.pdf-bg-gray-600 {
+  background-color: #4b5563 !important;
+}
+.pdf-border-gray-600 {
+  border-color: #4b5563 !important;
+}
+
+.pdf-text-gray-700 {
+  color: #374151 !important;
+}
+.pdf-bg-gray-700 {
+  background-color: #374151 !important;
+}
+.pdf-border-gray-700 {
+  border-color: #374151 !important;
+}
+
+.pdf-text-gray-800 {
+  color: #1f2937 !important;
+}
+.pdf-bg-gray-800 {
+  background-color: #1f2937 !important;
+}
+.pdf-border-gray-800 {
+  border-color: #1f2937 !important;
+}
+
+.pdf-text-gray-900 {
+  color: #111827 !important;
+}
+.pdf-bg-gray-900 {
+  background-color: #111827 !important;
+}
+.pdf-border-gray-900 {
+  border-color: #111827 !important;
+}
+
+.pdf-text-zinc-50 {
+  color: #fafafa !important;
+}
+.pdf-bg-zinc-50 {
+  background-color: #fafafa !important;
+}
+.pdf-border-zinc-50 {
+  border-color: #fafafa !important;
+}
+
+.pdf-text-zinc-100 {
+  color: #f4f4f5 !important;
+}
+.pdf-bg-zinc-100 {
+  background-color: #f4f4f5 !important;
+}
+.pdf-border-zinc-100 {
+  border-color: #f4f4f5 !important;
+}
+
+.pdf-text-zinc-200 {
+  color: #e4e4e7 !important;
+}
+.pdf-bg-zinc-200 {
+  background-color: #e4e4e7 !important;
+}
+.pdf-border-zinc-200 {
+  border-color: #e4e4e7 !important;
+}
+
+.pdf-text-zinc-300 {
+  color: #d4d4d8 !important;
+}
+.pdf-bg-zinc-300 {
+  background-color: #d4d4d8 !important;
+}
+.pdf-border-zinc-300 {
+  border-color: #d4d4d8 !important;
+}
+
+.pdf-text-zinc-400 {
+  color: #a1a1aa !important;
+}
+.pdf-bg-zinc-400 {
+  background-color: #a1a1aa !important;
+}
+.pdf-border-zinc-400 {
+  border-color: #a1a1aa !important;
+}
+
+.pdf-text-zinc-500 {
+  color: #71717a !important;
+}
+.pdf-bg-zinc-500 {
+  background-color: #71717a !important;
+}
+.pdf-border-zinc-500 {
+  border-color: #71717a !important;
+}
+
+.pdf-text-zinc-600 {
+  color: #52525b !important;
+}
+.pdf-bg-zinc-600 {
+  background-color: #52525b !important;
+}
+.pdf-border-zinc-600 {
+  border-color: #52525b !important;
+}
+
+.pdf-text-zinc-700 {
+  color: #3f3f46 !important;
+}
+.pdf-bg-zinc-700 {
+  background-color: #3f3f46 !important;
+}
+.pdf-border-zinc-700 {
+  border-color: #3f3f46 !important;
+}
+
+.pdf-text-zinc-800 {
+  color: #27272a !important;
+}
+.pdf-bg-zinc-800 {
+  background-color: #27272a !important;
+}
+.pdf-border-zinc-800 {
+  border-color: #27272a !important;
+}
+
+.pdf-text-zinc-900 {
+  color: #18181b !important;
+}
+.pdf-bg-zinc-900 {
+  background-color: #18181b !important;
+}
+.pdf-border-zinc-900 {
+  border-color: #18181b !important;
+}
+
+.pdf-text-neutral-50 {
+  color: #fafafa !important;
+}
+.pdf-bg-neutral-50 {
+  background-color: #fafafa !important;
+}
+.pdf-border-neutral-50 {
+  border-color: #fafafa !important;
+}
+
+.pdf-text-neutral-100 {
+  color: #f5f5f5 !important;
+}
+.pdf-bg-neutral-100 {
+  background-color: #f5f5f5 !important;
+}
+.pdf-border-neutral-100 {
+  border-color: #f5f5f5 !important;
+}
+
+.pdf-text-neutral-200 {
+  color: #e5e5e5 !important;
+}
+.pdf-bg-neutral-200 {
+  background-color: #e5e5e5 !important;
+}
+.pdf-border-neutral-200 {
+  border-color: #e5e5e5 !important;
+}
+
+.pdf-text-neutral-300 {
+  color: #d4d4d4 !important;
+}
+.pdf-bg-neutral-300 {
+  background-color: #d4d4d4 !important;
+}
+.pdf-border-neutral-300 {
+  border-color: #d4d4d4 !important;
+}
+
+.pdf-text-neutral-400 {
+  color: #a3a3a3 !important;
+}
+.pdf-bg-neutral-400 {
+  background-color: #a3a3a3 !important;
+}
+.pdf-border-neutral-400 {
+  border-color: #a3a3a3 !important;
+}
+
+.pdf-text-neutral-500 {
+  color: #737373 !important;
+}
+.pdf-bg-neutral-500 {
+  background-color: #737373 !important;
+}
+.pdf-border-neutral-500 {
+  border-color: #737373 !important;
+}
+
+.pdf-text-neutral-600 {
+  color: #525252 !important;
+}
+.pdf-bg-neutral-600 {
+  background-color: #525252 !important;
+}
+.pdf-border-neutral-600 {
+  border-color: #525252 !important;
+}
+
+.pdf-text-neutral-700 {
+  color: #404040 !important;
+}
+.pdf-bg-neutral-700 {
+  background-color: #404040 !important;
+}
+.pdf-border-neutral-700 {
+  border-color: #404040 !important;
+}
+
+.pdf-text-neutral-800 {
+  color: #262626 !important;
+}
+.pdf-bg-neutral-800 {
+  background-color: #262626 !important;
+}
+.pdf-border-neutral-800 {
+  border-color: #262626 !important;
+}
+
+.pdf-text-neutral-900 {
+  color: #171717 !important;
+}
+.pdf-bg-neutral-900 {
+  background-color: #171717 !important;
+}
+.pdf-border-neutral-900 {
+  border-color: #171717 !important;
+}
+
+.pdf-text-stone-50 {
+  color: #fafaf9 !important;
+}
+.pdf-bg-stone-50 {
+  background-color: #fafaf9 !important;
+}
+.pdf-border-stone-50 {
+  border-color: #fafaf9 !important;
+}
+
+.pdf-text-stone-100 {
+  color: #f5f5f4 !important;
+}
+.pdf-bg-stone-100 {
+  background-color: #f5f5f4 !important;
+}
+.pdf-border-stone-100 {
+  border-color: #f5f5f4 !important;
+}
+
+.pdf-text-stone-200 {
+  color: #e7e5e4 !important;
+}
+.pdf-bg-stone-200 {
+  background-color: #e7e5e4 !important;
+}
+.pdf-border-stone-200 {
+  border-color: #e7e5e4 !important;
+}
+
+.pdf-text-stone-300 {
+  color: #d6d3d1 !important;
+}
+.pdf-bg-stone-300 {
+  background-color: #d6d3d1 !important;
+}
+.pdf-border-stone-300 {
+  border-color: #d6d3d1 !important;
+}
+
+.pdf-text-stone-400 {
+  color: #a8a29e !important;
+}
+.pdf-bg-stone-400 {
+  background-color: #a8a29e !important;
+}
+.pdf-border-stone-400 {
+  border-color: #a8a29e !important;
+}
+
+.pdf-text-stone-500 {
+  color: #78716c !important;
+}
+.pdf-bg-stone-500 {
+  background-color: #78716c !important;
+}
+.pdf-border-stone-500 {
+  border-color: #78716c !important;
+}
+
+.pdf-text-stone-600 {
+  color: #57534e !important;
+}
+.pdf-bg-stone-600 {
+  background-color: #57534e !important;
+}
+.pdf-border-stone-600 {
+  border-color: #57534e !important;
+}
+
+.pdf-text-stone-700 {
+  color: #44403c !important;
+}
+.pdf-bg-stone-700 {
+  background-color: #44403c !important;
+}
+.pdf-border-stone-700 {
+  border-color: #44403c !important;
+}
+
+.pdf-text-stone-800 {
+  color: #292524 !important;
+}
+.pdf-bg-stone-800 {
+  background-color: #292524 !important;
+}
+.pdf-border-stone-800 {
+  border-color: #292524 !important;
+}
+
+.pdf-text-stone-900 {
+  color: #1c1917 !important;
+}
+.pdf-bg-stone-900 {
+  background-color: #1c1917 !important;
+}
+.pdf-border-stone-900 {
+  border-color: #1c1917 !important;
+}
+
+.pdf-text-red-50 {
+  color: #fef2f2 !important;
+}
+.pdf-bg-red-50 {
+  background-color: #fef2f2 !important;
+}
+.pdf-border-red-50 {
+  border-color: #fef2f2 !important;
+}
+
+.pdf-text-red-100 {
+  color: #fee2e2 !important;
+}
+.pdf-bg-red-100 {
+  background-color: #fee2e2 !important;
+}
+.pdf-border-red-100 {
+  border-color: #fee2e2 !important;
+}
+
+.pdf-text-red-200 {
+  color: #fecaca !important;
+}
+.pdf-bg-red-200 {
+  background-color: #fecaca !important;
+}
+.pdf-border-red-200 {
+  border-color: #fecaca !important;
+}
+
+.pdf-text-red-300 {
+  color: #fca5a5 !important;
+}
+.pdf-bg-red-300 {
+  background-color: #fca5a5 !important;
+}
+.pdf-border-red-300 {
+  border-color: #fca5a5 !important;
+}
+
+.pdf-text-red-400 {
+  color: #f87171 !important;
+}
+.pdf-bg-red-400 {
+  background-color: #f87171 !important;
+}
+.pdf-border-red-400 {
+  border-color: #f87171 !important;
+}
+
+.pdf-text-red-500 {
+  color: #ef4444 !important;
+}
+.pdf-bg-red-500 {
+  background-color: #ef4444 !important;
+}
+.pdf-border-red-500 {
+  border-color: #ef4444 !important;
+}
+
+.pdf-text-red-600 {
+  color: #dc2626 !important;
+}
+.pdf-bg-red-600 {
+  background-color: #dc2626 !important;
+}
+.pdf-border-red-600 {
+  border-color: #dc2626 !important;
+}
+
+.pdf-text-red-700 {
+  color: #b91c1c !important;
+}
+.pdf-bg-red-700 {
+  background-color: #b91c1c !important;
+}
+.pdf-border-red-700 {
+  border-color: #b91c1c !important;
+}
+
+.pdf-text-red-800 {
+  color: #991b1b !important;
+}
+.pdf-bg-red-800 {
+  background-color: #991b1b !important;
+}
+.pdf-border-red-800 {
+  border-color: #991b1b !important;
+}
+
+.pdf-text-red-900 {
+  color: #7f1d1d !important;
+}
+.pdf-bg-red-900 {
+  background-color: #7f1d1d !important;
+}
+.pdf-border-red-900 {
+  border-color: #7f1d1d !important;
+}
+
+.pdf-text-orange-50 {
+  color: #fff7ed !important;
+}
+.pdf-bg-orange-50 {
+  background-color: #fff7ed !important;
+}
+.pdf-border-orange-50 {
+  border-color: #fff7ed !important;
+}
+
+.pdf-text-orange-100 {
+  color: #ffedd5 !important;
+}
+.pdf-bg-orange-100 {
+  background-color: #ffedd5 !important;
+}
+.pdf-border-orange-100 {
+  border-color: #ffedd5 !important;
+}
+
+.pdf-text-orange-200 {
+  color: #fed7aa !important;
+}
+.pdf-bg-orange-200 {
+  background-color: #fed7aa !important;
+}
+.pdf-border-orange-200 {
+  border-color: #fed7aa !important;
+}
+
+.pdf-text-orange-300 {
+  color: #fdba74 !important;
+}
+.pdf-bg-orange-300 {
+  background-color: #fdba74 !important;
+}
+.pdf-border-orange-300 {
+  border-color: #fdba74 !important;
+}
+
+.pdf-text-orange-400 {
+  color: #fb923c !important;
+}
+.pdf-bg-orange-400 {
+  background-color: #fb923c !important;
+}
+.pdf-border-orange-400 {
+  border-color: #fb923c !important;
+}
+
+.pdf-text-orange-500 {
+  color: #f97316 !important;
+}
+.pdf-bg-orange-500 {
+  background-color: #f97316 !important;
+}
+.pdf-border-orange-500 {
+  border-color: #f97316 !important;
+}
+
+.pdf-text-orange-600 {
+  color: #ea580c !important;
+}
+.pdf-bg-orange-600 {
+  background-color: #ea580c !important;
+}
+.pdf-border-orange-600 {
+  border-color: #ea580c !important;
+}
+
+.pdf-text-orange-700 {
+  color: #c2410c !important;
+}
+.pdf-bg-orange-700 {
+  background-color: #c2410c !important;
+}
+.pdf-border-orange-700 {
+  border-color: #c2410c !important;
+}
+
+.pdf-text-orange-800 {
+  color: #9a3412 !important;
+}
+.pdf-bg-orange-800 {
+  background-color: #9a3412 !important;
+}
+.pdf-border-orange-800 {
+  border-color: #9a3412 !important;
+}
+
+.pdf-text-orange-900 {
+  color: #7c2d12 !important;
+}
+.pdf-bg-orange-900 {
+  background-color: #7c2d12 !important;
+}
+.pdf-border-orange-900 {
+  border-color: #7c2d12 !important;
+}
+
+.pdf-text-amber-50 {
+  color: #fffbeb !important;
+}
+.pdf-bg-amber-50 {
+  background-color: #fffbeb !important;
+}
+.pdf-border-amber-50 {
+  border-color: #fffbeb !important;
+}
+
+.pdf-text-amber-100 {
+  color: #fef3c7 !important;
+}
+.pdf-bg-amber-100 {
+  background-color: #fef3c7 !important;
+}
+.pdf-border-amber-100 {
+  border-color: #fef3c7 !important;
+}
+
+.pdf-text-amber-200 {
+  color: #fde68a !important;
+}
+.pdf-bg-amber-200 {
+  background-color: #fde68a !important;
+}
+.pdf-border-amber-200 {
+  border-color: #fde68a !important;
+}
+
+.pdf-text-amber-300 {
+  color: #fcd34d !important;
+}
+.pdf-bg-amber-300 {
+  background-color: #fcd34d !important;
+}
+.pdf-border-amber-300 {
+  border-color: #fcd34d !important;
+}
+
+.pdf-text-amber-400 {
+  color: #fbbf24 !important;
+}
+.pdf-bg-amber-400 {
+  background-color: #fbbf24 !important;
+}
+.pdf-border-amber-400 {
+  border-color: #fbbf24 !important;
+}
+
+.pdf-text-amber-500 {
+  color: #f59e0b !important;
+}
+.pdf-bg-amber-500 {
+  background-color: #f59e0b !important;
+}
+.pdf-border-amber-500 {
+  border-color: #f59e0b !important;
+}
+
+.pdf-text-amber-600 {
+  color: #d97706 !important;
+}
+.pdf-bg-amber-600 {
+  background-color: #d97706 !important;
+}
+.pdf-border-amber-600 {
+  border-color: #d97706 !important;
+}
+
+.pdf-text-amber-700 {
+  color: #b45309 !important;
+}
+.pdf-bg-amber-700 {
+  background-color: #b45309 !important;
+}
+.pdf-border-amber-700 {
+  border-color: #b45309 !important;
+}
+
+.pdf-text-amber-800 {
+  color: #92400e !important;
+}
+.pdf-bg-amber-800 {
+  background-color: #92400e !important;
+}
+.pdf-border-amber-800 {
+  border-color: #92400e !important;
+}
+
+.pdf-text-amber-900 {
+  color: #78350f !important;
+}
+.pdf-bg-amber-900 {
+  background-color: #78350f !important;
+}
+.pdf-border-amber-900 {
+  border-color: #78350f !important;
+}
+
+.pdf-text-yellow-50 {
+  color: #fefce8 !important;
+}
+.pdf-bg-yellow-50 {
+  background-color: #fefce8 !important;
+}
+.pdf-border-yellow-50 {
+  border-color: #fefce8 !important;
+}
+
+.pdf-text-yellow-100 {
+  color: #fef9c3 !important;
+}
+.pdf-bg-yellow-100 {
+  background-color: #fef9c3 !important;
+}
+.pdf-border-yellow-100 {
+  border-color: #fef9c3 !important;
+}
+
+.pdf-text-yellow-200 {
+  color: #fef08a !important;
+}
+.pdf-bg-yellow-200 {
+  background-color: #fef08a !important;
+}
+.pdf-border-yellow-200 {
+  border-color: #fef08a !important;
+}
+
+.pdf-text-yellow-300 {
+  color: #fde047 !important;
+}
+.pdf-bg-yellow-300 {
+  background-color: #fde047 !important;
+}
+.pdf-border-yellow-300 {
+  border-color: #fde047 !important;
+}
+
+.pdf-text-yellow-400 {
+  color: #facc15 !important;
+}
+.pdf-bg-yellow-400 {
+  background-color: #facc15 !important;
+}
+.pdf-border-yellow-400 {
+  border-color: #facc15 !important;
+}
+
+.pdf-text-yellow-500 {
+  color: #eab308 !important;
+}
+.pdf-bg-yellow-500 {
+  background-color: #eab308 !important;
+}
+.pdf-border-yellow-500 {
+  border-color: #eab308 !important;
+}
+
+.pdf-text-yellow-600 {
+  color: #ca8a04 !important;
+}
+.pdf-bg-yellow-600 {
+  background-color: #ca8a04 !important;
+}
+.pdf-border-yellow-600 {
+  border-color: #ca8a04 !important;
+}
+
+.pdf-text-yellow-700 {
+  color: #a16207 !important;
+}
+.pdf-bg-yellow-700 {
+  background-color: #a16207 !important;
+}
+.pdf-border-yellow-700 {
+  border-color: #a16207 !important;
+}
+
+.pdf-text-yellow-800 {
+  color: #854d0e !important;
+}
+.pdf-bg-yellow-800 {
+  background-color: #854d0e !important;
+}
+.pdf-border-yellow-800 {
+  border-color: #854d0e !important;
+}
+
+.pdf-text-yellow-900 {
+  color: #713f12 !important;
+}
+.pdf-bg-yellow-900 {
+  background-color: #713f12 !important;
+}
+.pdf-border-yellow-900 {
+  border-color: #713f12 !important;
+}
+
+.pdf-text-lime-50 {
+  color: #f7fee7 !important;
+}
+.pdf-bg-lime-50 {
+  background-color: #f7fee7 !important;
+}
+.pdf-border-lime-50 {
+  border-color: #f7fee7 !important;
+}
+
+.pdf-text-lime-100 {
+  color: #ecfccb !important;
+}
+.pdf-bg-lime-100 {
+  background-color: #ecfccb !important;
+}
+.pdf-border-lime-100 {
+  border-color: #ecfccb !important;
+}
+
+.pdf-text-lime-200 {
+  color: #d9f99d !important;
+}
+.pdf-bg-lime-200 {
+  background-color: #d9f99d !important;
+}
+.pdf-border-lime-200 {
+  border-color: #d9f99d !important;
+}
+
+.pdf-text-lime-300 {
+  color: #bef264 !important;
+}
+.pdf-bg-lime-300 {
+  background-color: #bef264 !important;
+}
+.pdf-border-lime-300 {
+  border-color: #bef264 !important;
+}
+
+.pdf-text-lime-400 {
+  color: #a3e635 !important;
+}
+.pdf-bg-lime-400 {
+  background-color: #a3e635 !important;
+}
+.pdf-border-lime-400 {
+  border-color: #a3e635 !important;
+}
+
+.pdf-text-lime-500 {
+  color: #84cc16 !important;
+}
+.pdf-bg-lime-500 {
+  background-color: #84cc16 !important;
+}
+.pdf-border-lime-500 {
+  border-color: #84cc16 !important;
+}
+
+.pdf-text-lime-600 {
+  color: #65a30d !important;
+}
+.pdf-bg-lime-600 {
+  background-color: #65a30d !important;
+}
+.pdf-border-lime-600 {
+  border-color: #65a30d !important;
+}
+
+.pdf-text-lime-700 {
+  color: #4d7c0f !important;
+}
+.pdf-bg-lime-700 {
+  background-color: #4d7c0f !important;
+}
+.pdf-border-lime-700 {
+  border-color: #4d7c0f !important;
+}
+
+.pdf-text-lime-800 {
+  color: #3f6212 !important;
+}
+.pdf-bg-lime-800 {
+  background-color: #3f6212 !important;
+}
+.pdf-border-lime-800 {
+  border-color: #3f6212 !important;
+}
+
+.pdf-text-lime-900 {
+  color: #365314 !important;
+}
+.pdf-bg-lime-900 {
+  background-color: #365314 !important;
+}
+.pdf-border-lime-900 {
+  border-color: #365314 !important;
+}
+
+.pdf-text-green-50 {
+  color: #f0fdf4 !important;
+}
+.pdf-bg-green-50 {
+  background-color: #f0fdf4 !important;
+}
+.pdf-border-green-50 {
+  border-color: #f0fdf4 !important;
+}
+
+.pdf-text-green-100 {
+  color: #dcfce7 !important;
+}
+.pdf-bg-green-100 {
+  background-color: #dcfce7 !important;
+}
+.pdf-border-green-100 {
+  border-color: #dcfce7 !important;
+}
+
+.pdf-text-green-200 {
+  color: #bbf7d0 !important;
+}
+.pdf-bg-green-200 {
+  background-color: #bbf7d0 !important;
+}
+.pdf-border-green-200 {
+  border-color: #bbf7d0 !important;
+}
+
+.pdf-text-green-300 {
+  color: #86efac !important;
+}
+.pdf-bg-green-300 {
+  background-color: #86efac !important;
+}
+.pdf-border-green-300 {
+  border-color: #86efac !important;
+}
+
+.pdf-text-green-400 {
+  color: #4ade80 !important;
+}
+.pdf-bg-green-400 {
+  background-color: #4ade80 !important;
+}
+.pdf-border-green-400 {
+  border-color: #4ade80 !important;
+}
+
+.pdf-text-green-500 {
+  color: #22c55e !important;
+}
+.pdf-bg-green-500 {
+  background-color: #22c55e !important;
+}
+.pdf-border-green-500 {
+  border-color: #22c55e !important;
+}
+
+.pdf-text-green-600 {
+  color: #16a34a !important;
+}
+.pdf-bg-green-600 {
+  background-color: #16a34a !important;
+}
+.pdf-border-green-600 {
+  border-color: #16a34a !important;
+}
+
+.pdf-text-green-700 {
+  color: #15803d !important;
+}
+.pdf-bg-green-700 {
+  background-color: #15803d !important;
+}
+.pdf-border-green-700 {
+  border-color: #15803d !important;
+}
+
+.pdf-text-green-800 {
+  color: #166534 !important;
+}
+.pdf-bg-green-800 {
+  background-color: #166534 !important;
+}
+.pdf-border-green-800 {
+  border-color: #166534 !important;
+}
+
+.pdf-text-green-900 {
+  color: #14532d !important;
+}
+.pdf-bg-green-900 {
+  background-color: #14532d !important;
+}
+.pdf-border-green-900 {
+  border-color: #14532d !important;
+}
+
+.pdf-text-emerald-50 {
+  color: #ecfdf5 !important;
+}
+.pdf-bg-emerald-50 {
+  background-color: #ecfdf5 !important;
+}
+.pdf-border-emerald-50 {
+  border-color: #ecfdf5 !important;
+}
+
+.pdf-text-emerald-100 {
+  color: #d1fae5 !important;
+}
+.pdf-bg-emerald-100 {
+  background-color: #d1fae5 !important;
+}
+.pdf-border-emerald-100 {
+  border-color: #d1fae5 !important;
+}
+
+.pdf-text-emerald-200 {
+  color: #a7f3d0 !important;
+}
+.pdf-bg-emerald-200 {
+  background-color: #a7f3d0 !important;
+}
+.pdf-border-emerald-200 {
+  border-color: #a7f3d0 !important;
+}
+
+.pdf-text-emerald-300 {
+  color: #6ee7b7 !important;
+}
+.pdf-bg-emerald-300 {
+  background-color: #6ee7b7 !important;
+}
+.pdf-border-emerald-300 {
+  border-color: #6ee7b7 !important;
+}
+
+.pdf-text-emerald-400 {
+  color: #34d399 !important;
+}
+.pdf-bg-emerald-400 {
+  background-color: #34d399 !important;
+}
+.pdf-border-emerald-400 {
+  border-color: #34d399 !important;
+}
+
+.pdf-text-emerald-500 {
+  color: #10b981 !important;
+}
+.pdf-bg-emerald-500 {
+  background-color: #10b981 !important;
+}
+.pdf-border-emerald-500 {
+  border-color: #10b981 !important;
+}
+
+.pdf-text-emerald-600 {
+  color: #059669 !important;
+}
+.pdf-bg-emerald-600 {
+  background-color: #059669 !important;
+}
+.pdf-border-emerald-600 {
+  border-color: #059669 !important;
+}
+
+.pdf-text-emerald-700 {
+  color: #047857 !important;
+}
+.pdf-bg-emerald-700 {
+  background-color: #047857 !important;
+}
+.pdf-border-emerald-700 {
+  border-color: #047857 !important;
+}
+
+.pdf-text-emerald-800 {
+  color: #065f46 !important;
+}
+.pdf-bg-emerald-800 {
+  background-color: #065f46 !important;
+}
+.pdf-border-emerald-800 {
+  border-color: #065f46 !important;
+}
+
+.pdf-text-emerald-900 {
+  color: #064e3b !important;
+}
+.pdf-bg-emerald-900 {
+  background-color: #064e3b !important;
+}
+.pdf-border-emerald-900 {
+  border-color: #064e3b !important;
+}
+
+.pdf-text-teal-50 {
+  color: #f0fdfa !important;
+}
+.pdf-bg-teal-50 {
+  background-color: #f0fdfa !important;
+}
+.pdf-border-teal-50 {
+  border-color: #f0fdfa !important;
+}
+
+.pdf-text-teal-100 {
+  color: #ccfbf1 !important;
+}
+.pdf-bg-teal-100 {
+  background-color: #ccfbf1 !important;
+}
+.pdf-border-teal-100 {
+  border-color: #ccfbf1 !important;
+}
+
+.pdf-text-teal-200 {
+  color: #99f6e4 !important;
+}
+.pdf-bg-teal-200 {
+  background-color: #99f6e4 !important;
+}
+.pdf-border-teal-200 {
+  border-color: #99f6e4 !important;
+}
+
+.pdf-text-teal-300 {
+  color: #5eead4 !important;
+}
+.pdf-bg-teal-300 {
+  background-color: #5eead4 !important;
+}
+.pdf-border-teal-300 {
+  border-color: #5eead4 !important;
+}
+
+.pdf-text-teal-400 {
+  color: #2dd4bf !important;
+}
+.pdf-bg-teal-400 {
+  background-color: #2dd4bf !important;
+}
+.pdf-border-teal-400 {
+  border-color: #2dd4bf !important;
+}
+
+.pdf-text-teal-500 {
+  color: #14b8a6 !important;
+}
+.pdf-bg-teal-500 {
+  background-color: #14b8a6 !important;
+}
+.pdf-border-teal-500 {
+  border-color: #14b8a6 !important;
+}
+
+.pdf-text-teal-600 {
+  color: #0d9488 !important;
+}
+.pdf-bg-teal-600 {
+  background-color: #0d9488 !important;
+}
+.pdf-border-teal-600 {
+  border-color: #0d9488 !important;
+}
+
+.pdf-text-teal-700 {
+  color: #0f766e !important;
+}
+.pdf-bg-teal-700 {
+  background-color: #0f766e !important;
+}
+.pdf-border-teal-700 {
+  border-color: #0f766e !important;
+}
+
+.pdf-text-teal-800 {
+  color: #115e59 !important;
+}
+.pdf-bg-teal-800 {
+  background-color: #115e59 !important;
+}
+.pdf-border-teal-800 {
+  border-color: #115e59 !important;
+}
+
+.pdf-text-teal-900 {
+  color: #134e4a !important;
+}
+.pdf-bg-teal-900 {
+  background-color: #134e4a !important;
+}
+.pdf-border-teal-900 {
+  border-color: #134e4a !important;
+}
+
+.pdf-text-cyan-50 {
+  color: #ecfeff !important;
+}
+.pdf-bg-cyan-50 {
+  background-color: #ecfeff !important;
+}
+.pdf-border-cyan-50 {
+  border-color: #ecfeff !important;
+}
+
+.pdf-text-cyan-100 {
+  color: #cffafe !important;
+}
+.pdf-bg-cyan-100 {
+  background-color: #cffafe !important;
+}
+.pdf-border-cyan-100 {
+  border-color: #cffafe !important;
+}
+
+.pdf-text-cyan-200 {
+  color: #a5f3fc !important;
+}
+.pdf-bg-cyan-200 {
+  background-color: #a5f3fc !important;
+}
+.pdf-border-cyan-200 {
+  border-color: #a5f3fc !important;
+}
+
+.pdf-text-cyan-300 {
+  color: #67e8f9 !important;
+}
+.pdf-bg-cyan-300 {
+  background-color: #67e8f9 !important;
+}
+.pdf-border-cyan-300 {
+  border-color: #67e8f9 !important;
+}
+
+.pdf-text-cyan-400 {
+  color: #22d3ee !important;
+}
+.pdf-bg-cyan-400 {
+  background-color: #22d3ee !important;
+}
+.pdf-border-cyan-400 {
+  border-color: #22d3ee !important;
+}
+
+.pdf-text-cyan-500 {
+  color: #06b6d4 !important;
+}
+.pdf-bg-cyan-500 {
+  background-color: #06b6d4 !important;
+}
+.pdf-border-cyan-500 {
+  border-color: #06b6d4 !important;
+}
+
+.pdf-text-cyan-600 {
+  color: #0891b2 !important;
+}
+.pdf-bg-cyan-600 {
+  background-color: #0891b2 !important;
+}
+.pdf-border-cyan-600 {
+  border-color: #0891b2 !important;
+}
+
+.pdf-text-cyan-700 {
+  color: #0e7490 !important;
+}
+.pdf-bg-cyan-700 {
+  background-color: #0e7490 !important;
+}
+.pdf-border-cyan-700 {
+  border-color: #0e7490 !important;
+}
+
+.pdf-text-cyan-800 {
+  color: #155e75 !important;
+}
+.pdf-bg-cyan-800 {
+  background-color: #155e75 !important;
+}
+.pdf-border-cyan-800 {
+  border-color: #155e75 !important;
+}
+
+.pdf-text-cyan-900 {
+  color: #164e63 !important;
+}
+.pdf-bg-cyan-900 {
+  background-color: #164e63 !important;
+}
+.pdf-border-cyan-900 {
+  border-color: #164e63 !important;
+}
+
+.pdf-text-sky-50 {
+  color: #f0f9ff !important;
+}
+.pdf-bg-sky-50 {
+  background-color: #f0f9ff !important;
+}
+.pdf-border-sky-50 {
+  border-color: #f0f9ff !important;
+}
+
+.pdf-text-sky-100 {
+  color: #e0f2fe !important;
+}
+.pdf-bg-sky-100 {
+  background-color: #e0f2fe !important;
+}
+.pdf-border-sky-100 {
+  border-color: #e0f2fe !important;
+}
+
+.pdf-text-sky-200 {
+  color: #bae6fd !important;
+}
+.pdf-bg-sky-200 {
+  background-color: #bae6fd !important;
+}
+.pdf-border-sky-200 {
+  border-color: #bae6fd !important;
+}
+
+.pdf-text-sky-300 {
+  color: #7dd3fc !important;
+}
+.pdf-bg-sky-300 {
+  background-color: #7dd3fc !important;
+}
+.pdf-border-sky-300 {
+  border-color: #7dd3fc !important;
+}
+
+.pdf-text-sky-400 {
+  color: #38bdf8 !important;
+}
+.pdf-bg-sky-400 {
+  background-color: #38bdf8 !important;
+}
+.pdf-border-sky-400 {
+  border-color: #38bdf8 !important;
+}
+
+.pdf-text-sky-500 {
+  color: #0ea5e9 !important;
+}
+.pdf-bg-sky-500 {
+  background-color: #0ea5e9 !important;
+}
+.pdf-border-sky-500 {
+  border-color: #0ea5e9 !important;
+}
+
+.pdf-text-sky-600 {
+  color: #0284c7 !important;
+}
+.pdf-bg-sky-600 {
+  background-color: #0284c7 !important;
+}
+.pdf-border-sky-600 {
+  border-color: #0284c7 !important;
+}
+
+.pdf-text-sky-700 {
+  color: #0369a1 !important;
+}
+.pdf-bg-sky-700 {
+  background-color: #0369a1 !important;
+}
+.pdf-border-sky-700 {
+  border-color: #0369a1 !important;
+}
+
+.pdf-text-sky-800 {
+  color: #075985 !important;
+}
+.pdf-bg-sky-800 {
+  background-color: #075985 !important;
+}
+.pdf-border-sky-800 {
+  border-color: #075985 !important;
+}
+
+.pdf-text-sky-900 {
+  color: #0c4a6e !important;
+}
+.pdf-bg-sky-900 {
+  background-color: #0c4a6e !important;
+}
+.pdf-border-sky-900 {
+  border-color: #0c4a6e !important;
+}
+
+.pdf-text-blue-50 {
+  color: #eff6ff !important;
+}
+.pdf-bg-blue-50 {
+  background-color: #eff6ff !important;
+}
+.pdf-border-blue-50 {
+  border-color: #eff6ff !important;
+}
+
+.pdf-text-blue-100 {
+  color: #dbeafe !important;
+}
+.pdf-bg-blue-100 {
+  background-color: #dbeafe !important;
+}
+.pdf-border-blue-100 {
+  border-color: #dbeafe !important;
+}
+
+.pdf-text-blue-200 {
+  color: #bfdbfe !important;
+}
+.pdf-bg-blue-200 {
+  background-color: #bfdbfe !important;
+}
+.pdf-border-blue-200 {
+  border-color: #bfdbfe !important;
+}
+
+.pdf-text-blue-300 {
+  color: #93c5fd !important;
+}
+.pdf-bg-blue-300 {
+  background-color: #93c5fd !important;
+}
+.pdf-border-blue-300 {
+  border-color: #93c5fd !important;
+}
+
+.pdf-text-blue-400 {
+  color: #60a5fa !important;
+}
+.pdf-bg-blue-400 {
+  background-color: #60a5fa !important;
+}
+.pdf-border-blue-400 {
+  border-color: #60a5fa !important;
+}
+
+.pdf-text-blue-500 {
+  color: #3b82f6 !important;
+}
+.pdf-bg-blue-500 {
+  background-color: #3b82f6 !important;
+}
+.pdf-border-blue-500 {
+  border-color: #3b82f6 !important;
+}
+
+.pdf-text-blue-600 {
+  color: #2563eb !important;
+}
+.pdf-bg-blue-600 {
+  background-color: #2563eb !important;
+}
+.pdf-border-blue-600 {
+  border-color: #2563eb !important;
+}
+
+.pdf-text-blue-700 {
+  color: #1d4ed8 !important;
+}
+.pdf-bg-blue-700 {
+  background-color: #1d4ed8 !important;
+}
+.pdf-border-blue-700 {
+  border-color: #1d4ed8 !important;
+}
+
+.pdf-text-blue-800 {
+  color: #1e40af !important;
+}
+.pdf-bg-blue-800 {
+  background-color: #1e40af !important;
+}
+.pdf-border-blue-800 {
+  border-color: #1e40af !important;
+}
+
+.pdf-text-blue-900 {
+  color: #1e3a8a !important;
+}
+.pdf-bg-blue-900 {
+  background-color: #1e3a8a !important;
+}
+.pdf-border-blue-900 {
+  border-color: #1e3a8a !important;
+}
+
+.pdf-text-indigo-50 {
+  color: #eef2ff !important;
+}
+.pdf-bg-indigo-50 {
+  background-color: #eef2ff !important;
+}
+.pdf-border-indigo-50 {
+  border-color: #eef2ff !important;
+}
+
+.pdf-text-indigo-100 {
+  color: #e0e7ff !important;
+}
+.pdf-bg-indigo-100 {
+  background-color: #e0e7ff !important;
+}
+.pdf-border-indigo-100 {
+  border-color: #e0e7ff !important;
+}
+
+.pdf-text-indigo-200 {
+  color: #c7d2fe !important;
+}
+.pdf-bg-indigo-200 {
+  background-color: #c7d2fe !important;
+}
+.pdf-border-indigo-200 {
+  border-color: #c7d2fe !important;
+}
+
+.pdf-text-indigo-300 {
+  color: #a5b4fc !important;
+}
+.pdf-bg-indigo-300 {
+  background-color: #a5b4fc !important;
+}
+.pdf-border-indigo-300 {
+  border-color: #a5b4fc !important;
+}
+
+.pdf-text-indigo-400 {
+  color: #818cf8 !important;
+}
+.pdf-bg-indigo-400 {
+  background-color: #818cf8 !important;
+}
+.pdf-border-indigo-400 {
+  border-color: #818cf8 !important;
+}
+
+.pdf-text-indigo-500 {
+  color: #6366f1 !important;
+}
+.pdf-bg-indigo-500 {
+  background-color: #6366f1 !important;
+}
+.pdf-border-indigo-500 {
+  border-color: #6366f1 !important;
+}
+
+.pdf-text-indigo-600 {
+  color: #4f46e5 !important;
+}
+.pdf-bg-indigo-600 {
+  background-color: #4f46e5 !important;
+}
+.pdf-border-indigo-600 {
+  border-color: #4f46e5 !important;
+}
+
+.pdf-text-indigo-700 {
+  color: #4338ca !important;
+}
+.pdf-bg-indigo-700 {
+  background-color: #4338ca !important;
+}
+.pdf-border-indigo-700 {
+  border-color: #4338ca !important;
+}
+
+.pdf-text-indigo-800 {
+  color: #3730a3 !important;
+}
+.pdf-bg-indigo-800 {
+  background-color: #3730a3 !important;
+}
+.pdf-border-indigo-800 {
+  border-color: #3730a3 !important;
+}
+
+.pdf-text-indigo-900 {
+  color: #312e81 !important;
+}
+.pdf-bg-indigo-900 {
+  background-color: #312e81 !important;
+}
+.pdf-border-indigo-900 {
+  border-color: #312e81 !important;
+}
+
+.pdf-text-violet-50 {
+  color: #f5f3ff !important;
+}
+.pdf-bg-violet-50 {
+  background-color: #f5f3ff !important;
+}
+.pdf-border-violet-50 {
+  border-color: #f5f3ff !important;
+}
+
+.pdf-text-violet-100 {
+  color: #ede9fe !important;
+}
+.pdf-bg-violet-100 {
+  background-color: #ede9fe !important;
+}
+.pdf-border-violet-100 {
+  border-color: #ede9fe !important;
+}
+
+.pdf-text-violet-200 {
+  color: #ddd6fe !important;
+}
+.pdf-bg-violet-200 {
+  background-color: #ddd6fe !important;
+}
+.pdf-border-violet-200 {
+  border-color: #ddd6fe !important;
+}
+
+.pdf-text-violet-300 {
+  color: #c4b5fd !important;
+}
+.pdf-bg-violet-300 {
+  background-color: #c4b5fd !important;
+}
+.pdf-border-violet-300 {
+  border-color: #c4b5fd !important;
+}
+
+.pdf-text-violet-400 {
+  color: #a78bfa !important;
+}
+.pdf-bg-violet-400 {
+  background-color: #a78bfa !important;
+}
+.pdf-border-violet-400 {
+  border-color: #a78bfa !important;
+}
+
+.pdf-text-violet-500 {
+  color: #8b5cf6 !important;
+}
+.pdf-bg-violet-500 {
+  background-color: #8b5cf6 !important;
+}
+.pdf-border-violet-500 {
+  border-color: #8b5cf6 !important;
+}
+
+.pdf-text-violet-600 {
+  color: #7c3aed !important;
+}
+.pdf-bg-violet-600 {
+  background-color: #7c3aed !important;
+}
+.pdf-border-violet-600 {
+  border-color: #7c3aed !important;
+}
+
+.pdf-text-violet-700 {
+  color: #6d28d9 !important;
+}
+.pdf-bg-violet-700 {
+  background-color: #6d28d9 !important;
+}
+.pdf-border-violet-700 {
+  border-color: #6d28d9 !important;
+}
+
+.pdf-text-violet-800 {
+  color: #5b21b6 !important;
+}
+.pdf-bg-violet-800 {
+  background-color: #5b21b6 !important;
+}
+.pdf-border-violet-800 {
+  border-color: #5b21b6 !important;
+}
+
+.pdf-text-violet-900 {
+  color: #4c1d95 !important;
+}
+.pdf-bg-violet-900 {
+  background-color: #4c1d95 !important;
+}
+.pdf-border-violet-900 {
+  border-color: #4c1d95 !important;
+}
+
+.pdf-text-purple-50 {
+  color: #faf5ff !important;
+}
+.pdf-bg-purple-50 {
+  background-color: #faf5ff !important;
+}
+.pdf-border-purple-50 {
+  border-color: #faf5ff !important;
+}
+
+.pdf-text-purple-100 {
+  color: #f3e8ff !important;
+}
+.pdf-bg-purple-100 {
+  background-color: #f3e8ff !important;
+}
+.pdf-border-purple-100 {
+  border-color: #f3e8ff !important;
+}
+
+.pdf-text-purple-200 {
+  color: #e9d5ff !important;
+}
+.pdf-bg-purple-200 {
+  background-color: #e9d5ff !important;
+}
+.pdf-border-purple-200 {
+  border-color: #e9d5ff !important;
+}
+
+.pdf-text-purple-300 {
+  color: #d8b4fe !important;
+}
+.pdf-bg-purple-300 {
+  background-color: #d8b4fe !important;
+}
+.pdf-border-purple-300 {
+  border-color: #d8b4fe !important;
+}
+
+.pdf-text-purple-400 {
+  color: #c084fc !important;
+}
+.pdf-bg-purple-400 {
+  background-color: #c084fc !important;
+}
+.pdf-border-purple-400 {
+  border-color: #c084fc !important;
+}
+
+.pdf-text-purple-500 {
+  color: #a855f7 !important;
+}
+.pdf-bg-purple-500 {
+  background-color: #a855f7 !important;
+}
+.pdf-border-purple-500 {
+  border-color: #a855f7 !important;
+}
+
+.pdf-text-purple-600 {
+  color: #9333ea !important;
+}
+.pdf-bg-purple-600 {
+  background-color: #9333ea !important;
+}
+.pdf-border-purple-600 {
+  border-color: #9333ea !important;
+}
+
+.pdf-text-purple-700 {
+  color: #7e22ce !important;
+}
+.pdf-bg-purple-700 {
+  background-color: #7e22ce !important;
+}
+.pdf-border-purple-700 {
+  border-color: #7e22ce !important;
+}
+
+.pdf-text-purple-800 {
+  color: #6b21a8 !important;
+}
+.pdf-bg-purple-800 {
+  background-color: #6b21a8 !important;
+}
+.pdf-border-purple-800 {
+  border-color: #6b21a8 !important;
+}
+
+.pdf-text-purple-900 {
+  color: #581c87 !important;
+}
+.pdf-bg-purple-900 {
+  background-color: #581c87 !important;
+}
+.pdf-border-purple-900 {
+  border-color: #581c87 !important;
+}
+
+.pdf-text-fuchsia-50 {
+  color: #fdf4ff !important;
+}
+.pdf-bg-fuchsia-50 {
+  background-color: #fdf4ff !important;
+}
+.pdf-border-fuchsia-50 {
+  border-color: #fdf4ff !important;
+}
+
+.pdf-text-fuchsia-100 {
+  color: #fae8ff !important;
+}
+.pdf-bg-fuchsia-100 {
+  background-color: #fae8ff !important;
+}
+.pdf-border-fuchsia-100 {
+  border-color: #fae8ff !important;
+}
+
+.pdf-text-fuchsia-200 {
+  color: #f5d0fe !important;
+}
+.pdf-bg-fuchsia-200 {
+  background-color: #f5d0fe !important;
+}
+.pdf-border-fuchsia-200 {
+  border-color: #f5d0fe !important;
+}
+
+.pdf-text-fuchsia-300 {
+  color: #f0abfc !important;
+}
+.pdf-bg-fuchsia-300 {
+  background-color: #f0abfc !important;
+}
+.pdf-border-fuchsia-300 {
+  border-color: #f0abfc !important;
+}
+
+.pdf-text-fuchsia-400 {
+  color: #e879f9 !important;
+}
+.pdf-bg-fuchsia-400 {
+  background-color: #e879f9 !important;
+}
+.pdf-border-fuchsia-400 {
+  border-color: #e879f9 !important;
+}
+
+.pdf-text-fuchsia-500 {
+  color: #d946ef !important;
+}
+.pdf-bg-fuchsia-500 {
+  background-color: #d946ef !important;
+}
+.pdf-border-fuchsia-500 {
+  border-color: #d946ef !important;
+}
+
+.pdf-text-fuchsia-600 {
+  color: #c026d3 !important;
+}
+.pdf-bg-fuchsia-600 {
+  background-color: #c026d3 !important;
+}
+.pdf-border-fuchsia-600 {
+  border-color: #c026d3 !important;
+}
+
+.pdf-text-fuchsia-700 {
+  color: #a21caf !important;
+}
+.pdf-bg-fuchsia-700 {
+  background-color: #a21caf !important;
+}
+.pdf-border-fuchsia-700 {
+  border-color: #a21caf !important;
+}
+
+.pdf-text-fuchsia-800 {
+  color: #86198f !important;
+}
+.pdf-bg-fuchsia-800 {
+  background-color: #86198f !important;
+}
+.pdf-border-fuchsia-800 {
+  border-color: #86198f !important;
+}
+
+.pdf-text-fuchsia-900 {
+  color: #701a75 !important;
+}
+.pdf-bg-fuchsia-900 {
+  background-color: #701a75 !important;
+}
+.pdf-border-fuchsia-900 {
+  border-color: #701a75 !important;
+}
+
+.pdf-text-pink-50 {
+  color: #fdf2f8 !important;
+}
+.pdf-bg-pink-50 {
+  background-color: #fdf2f8 !important;
+}
+.pdf-border-pink-50 {
+  border-color: #fdf2f8 !important;
+}
+
+.pdf-text-pink-100 {
+  color: #fce7f3 !important;
+}
+.pdf-bg-pink-100 {
+  background-color: #fce7f3 !important;
+}
+.pdf-border-pink-100 {
+  border-color: #fce7f3 !important;
+}
+
+.pdf-text-pink-200 {
+  color: #fbcfe8 !important;
+}
+.pdf-bg-pink-200 {
+  background-color: #fbcfe8 !important;
+}
+.pdf-border-pink-200 {
+  border-color: #fbcfe8 !important;
+}
+
+.pdf-text-pink-300 {
+  color: #f9a8d4 !important;
+}
+.pdf-bg-pink-300 {
+  background-color: #f9a8d4 !important;
+}
+.pdf-border-pink-300 {
+  border-color: #f9a8d4 !important;
+}
+
+.pdf-text-pink-400 {
+  color: #f472b6 !important;
+}
+.pdf-bg-pink-400 {
+  background-color: #f472b6 !important;
+}
+.pdf-border-pink-400 {
+  border-color: #f472b6 !important;
+}
+
+.pdf-text-pink-500 {
+  color: #ec4899 !important;
+}
+.pdf-bg-pink-500 {
+  background-color: #ec4899 !important;
+}
+.pdf-border-pink-500 {
+  border-color: #ec4899 !important;
+}
+
+.pdf-text-pink-600 {
+  color: #db2777 !important;
+}
+.pdf-bg-pink-600 {
+  background-color: #db2777 !important;
+}
+.pdf-border-pink-600 {
+  border-color: #db2777 !important;
+}
+
+.pdf-text-pink-700 {
+  color: #be185d !important;
+}
+.pdf-bg-pink-700 {
+  background-color: #be185d !important;
+}
+.pdf-border-pink-700 {
+  border-color: #be185d !important;
+}
+
+.pdf-text-pink-800 {
+  color: #9d174d !important;
+}
+.pdf-bg-pink-800 {
+  background-color: #9d174d !important;
+}
+.pdf-border-pink-800 {
+  border-color: #9d174d !important;
+}
+
+.pdf-text-pink-900 {
+  color: #831843 !important;
+}
+.pdf-bg-pink-900 {
+  background-color: #831843 !important;
+}
+.pdf-border-pink-900 {
+  border-color: #831843 !important;
+}
+
+.pdf-text-rose-50 {
+  color: #fdf2f8 !important;
+}
+.pdf-bg-rose-50 {
+  background-color: #fdf2f8 !important;
+}
+.pdf-border-rose-50 {
+  border-color: #fdf2f8 !important;
+}
+
+.pdf-text-rose-100 {
+  color: #fce7f3 !important;
+}
+.pdf-bg-rose-100 {
+  background-color: #fce7f3 !important;
+}
+.pdf-border-rose-100 {
+  border-color: #fce7f3 !important;
+}
+
+.pdf-text-rose-200 {
+  color: #fbcfe8 !important;
+}
+.pdf-bg-rose-200 {
+  background-color: #fbcfe8 !important;
+}
+.pdf-border-rose-200 {
+  border-color: #fbcfe8 !important;
+}
+
+.pdf-text-rose-300 {
+  color: #f9a8d4 !important;
+}
+.pdf-bg-rose-300 {
+  background-color: #f9a8d4 !important;
+}
+.pdf-border-rose-300 {
+  border-color: #f9a8d4 !important;
+}
+
+.pdf-text-rose-400 {
+  color: #f472b6 !important;
+}
+.pdf-bg-rose-400 {
+  background-color: #f472b6 !important;
+}
+.pdf-border-rose-400 {
+  border-color: #f472b6 !important;
+}
+
+.pdf-text-rose-500 {
+  color: #ec4899 !important;
+}
+.pdf-bg-rose-500 {
+  background-color: #ec4899 !important;
+}
+.pdf-border-rose-500 {
+  border-color: #ec4899 !important;
+}
+
+.pdf-text-rose-600 {
+  color: #db2777 !important;
+}
+.pdf-bg-rose-600 {
+  background-color: #db2777 !important;
+}
+.pdf-border-rose-600 {
+  border-color: #db2777 !important;
+}
+
+.pdf-text-rose-700 {
+  color: #be185d !important;
+}
+.pdf-bg-rose-700 {
+  background-color: #be185d !important;
+}
+.pdf-border-rose-700 {
+  border-color: #be185d !important;
+}
+
+.pdf-text-rose-800 {
+  color: #9d174d !important;
+}
+.pdf-bg-rose-800 {
+  background-color: #9d174d !important;
+}
+.pdf-border-rose-800 {
+  border-color: #9d174d !important;
+}
+
+.pdf-text-rose-900 {
+  color: #831843 !important;
+}
+.pdf-bg-rose-900 {
+  background-color: #831843 !important;
+}
+.pdf-border-rose-900 {
+  border-color: #831843 !important;
+}
+
+/*# sourceMappingURL=pdf.css.map */

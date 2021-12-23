@@ -1,0 +1,2465 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PDF Color</title>
+    <link rel="icon" href="access/logo/dh.svg" type="image/gif" sizes="16x16">
+    <meta name="theme-color" content="#999999" />
+
+    <!-- Primary Meta Tags -->
+    <title>Hi, I'm PDF Color!</title>
+    <meta name="title" content="Hi, I'm PDF Color!">
+    <meta name="description" content="အရောင်တွေရွေးတာများလို့လိုက်ဖက်မည့်အရောင်ကိုရှာနေတာလား PDF Color ကိုသုံးလိုက်ပါ...">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sanlinhtik3.github.io/pdf-color">
+    <meta property="og:title" content="Hi, I'm PDF Color!">
+    <meta property="og:description" content="အရောင်တွေရွေးတာများလို့လိုက်ဖက်မည့်အရောင်ကိုရှာနေတာလား PDF Color ကိုသုံးလိုက်ပါ...">
+    <meta property="og:image" content="access/img/screenshot.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sanlinhtik3.github.io/pdf-color">
+    <meta property="twitter:title" content="Hi, I'm PDF Color!">
+    <meta property="twitter:description" content="အရောင်တွေရွေးတာများလို့လိုက်ဖက်မည့်အရောင်ကိုရှာနေတာလား PDF Color ကိုသုံးလိုက်ပါ...">
+    <meta property="twitter:image" content="access/img/screenshot.png">
+
+    <link rel="stylesheet" href="access/css/main.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="node_modules/highlight.js/styles/github-dark.css">
+    <link rel="stylesheet" href="pdf-color/css/pdf.css">
+    <link rel="stylesheet" href="access/koGyi.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-10 p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="#">PDF Color</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pdf_color">Color</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/sanlinhtik3/pdf-color" target="_blank">Docs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="hero-bg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.03 188.32"><defs><style>.cls-1{fill:#52525b;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Background"><path class="cls-1" d="M8.51,184.07a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,8.51,184.07Z"/><path class="cls-1" d="M35.72,184.07a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,184.07Z"/><path class="cls-1" d="M62.94,184.07a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,184.07Z"/><path class="cls-1" d="M90.16,184.07a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,90.16,184.07Z"/><path class="cls-1" d="M117.37,184.07a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,184.07Z"/><path class="cls-1" d="M144.59,184.07a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,184.07Z"/><path class="cls-1" d="M171.81,184.07a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,171.81,184.07Z"/><path class="cls-1" d="M199,184.07a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,199,184.07Z"/><path class="cls-1" d="M8.51,158.38a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,8.51,158.38Z"/><path class="cls-1" d="M35.72,158.38a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,158.38Z"/><path class="cls-1" d="M62.94,158.38a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,158.38Z"/><path class="cls-1" d="M90.16,158.38a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,90.16,158.38Z"/><path class="cls-1" d="M117.37,158.38a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,158.38Z"/><path class="cls-1" d="M144.59,158.38a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,158.38Z"/><path class="cls-1" d="M171.81,158.38a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,171.81,158.38Z"/><path class="cls-1" d="M199,158.38a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,199,158.38Z"/><path class="cls-1" d="M8.51,132.69a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,8.51,132.69Z"/><path class="cls-1" d="M35.72,132.69a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,132.69Z"/><path class="cls-1" d="M62.94,132.69a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,132.69Z"/><path class="cls-1" d="M90.16,132.69a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,90.16,132.69Z"/><path class="cls-1" d="M117.37,132.69a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,132.69Z"/><path class="cls-1" d="M144.59,132.69a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,132.69Z"/><path class="cls-1" d="M171.81,132.69a4.26,4.26,0,1,1-4.25-4.25A4.26,4.26,0,0,1,171.81,132.69Z"/><path class="cls-1" d="M199,132.69a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,199,132.69Z"/><path class="cls-1" d="M8.51,107a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,8.51,107Z"/><path class="cls-1" d="M35.72,107a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,107Z"/><path class="cls-1" d="M62.94,107a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,107Z"/><path class="cls-1" d="M90.16,107a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,90.16,107Z"/><path class="cls-1" d="M117.37,107a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,107Z"/><path class="cls-1" d="M144.59,107a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,107Z"/><path class="cls-1" d="M171.81,107a4.26,4.26,0,1,1-4.25-4.25A4.26,4.26,0,0,1,171.81,107Z"/><path class="cls-1" d="M199,107a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,199,107Z"/><path class="cls-1" d="M8.51,81.32a4.26,4.26,0,1,1-4.26-4.26A4.25,4.25,0,0,1,8.51,81.32Z"/><path class="cls-1" d="M35.72,81.32a4.25,4.25,0,1,1-4.25-4.26A4.25,4.25,0,0,1,35.72,81.32Z"/><path class="cls-1" d="M62.94,81.32a4.26,4.26,0,1,1-4.25-4.26A4.25,4.25,0,0,1,62.94,81.32Z"/><path class="cls-1" d="M90.16,81.32a4.26,4.26,0,1,1-4.26-4.26A4.25,4.25,0,0,1,90.16,81.32Z"/><path class="cls-1" d="M117.37,81.32a4.25,4.25,0,1,1-4.25-4.26A4.25,4.25,0,0,1,117.37,81.32Z"/><path class="cls-1" d="M144.59,81.32a4.25,4.25,0,1,1-4.25-4.26A4.25,4.25,0,0,1,144.59,81.32Z"/><path class="cls-1" d="M171.81,81.32a4.26,4.26,0,1,1-4.25-4.26A4.25,4.25,0,0,1,171.81,81.32Z"/><path class="cls-1" d="M199,81.32a4.26,4.26,0,1,1-4.26-4.26A4.25,4.25,0,0,1,199,81.32Z"/><path class="cls-1" d="M8.51,55.63a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,8.51,55.63Z"/><path class="cls-1" d="M35.72,55.63a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,55.63Z"/><path class="cls-1" d="M62.94,55.63a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,55.63Z"/><path class="cls-1" d="M90.16,55.63a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,90.16,55.63Z"/><path class="cls-1" d="M117.37,55.63a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,55.63Z"/><path class="cls-1" d="M144.59,55.63a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,55.63Z"/><path class="cls-1" d="M171.81,55.63a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,171.81,55.63Z"/><path class="cls-1" d="M199,55.63a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,199,55.63Z"/><path class="cls-1" d="M8.51,29.94a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,8.51,29.94Z"/><path class="cls-1" d="M35.72,29.94a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,29.94Z"/><path class="cls-1" d="M62.94,29.94a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,29.94Z"/><path class="cls-1" d="M90.16,29.94a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,90.16,29.94Z"/><path class="cls-1" d="M117.37,29.94a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,29.94Z"/><path class="cls-1" d="M144.59,29.94a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,29.94Z"/><path class="cls-1" d="M171.81,29.94a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,171.81,29.94Z"/><path class="cls-1" d="M199,29.94a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,199,29.94Z"/><path class="cls-1" d="M8.51,4.25A4.26,4.26,0,1,1,4.25,0,4.26,4.26,0,0,1,8.51,4.25Z"/><path class="cls-1" d="M35.72,4.25A4.25,4.25,0,1,1,31.47,0,4.25,4.25,0,0,1,35.72,4.25Z"/><path class="cls-1" d="M62.94,4.25A4.26,4.26,0,1,1,58.69,0,4.25,4.25,0,0,1,62.94,4.25Z"/><path class="cls-1" d="M90.16,4.25A4.26,4.26,0,1,1,85.9,0,4.26,4.26,0,0,1,90.16,4.25Z"/><path class="cls-1" d="M117.37,4.25A4.25,4.25,0,1,1,113.12,0,4.25,4.25,0,0,1,117.37,4.25Z"/><path class="cls-1" d="M144.59,4.25A4.25,4.25,0,1,1,140.34,0,4.25,4.25,0,0,1,144.59,4.25Z"/><path class="cls-1" d="M171.81,4.25A4.26,4.26,0,1,1,167.56,0,4.26,4.26,0,0,1,171.81,4.25Z"/><path class="cls-1" d="M199,4.25A4.26,4.26,0,1,1,194.77,0,4.26,4.26,0,0,1,199,4.25Z"/></g></g></svg>
+</div>
+
+<div class="hero-bg-1">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485.87 485.87"><defs><style>.cls-1{fill:#e2e8f0;}.cls-2{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Background"><path class="cls-1" d="M347.35,410.8a40.54,40.54,0,1,1-33.67-46.41A40.59,40.59,0,0,1,347.35,410.8Zm-78.79-12.53a39.24,39.24,0,1,0,44.92-32.59A39.28,39.28,0,0,0,268.56,398.27Z"/><path class="cls-2" d="M242.94,485.87C109,485.87,0,376.89,0,242.93S109,0,242.94,0,485.87,109,485.87,242.93,376.89,485.87,242.94,485.87Zm0-482.51C110.84,3.36,3.36,110.84,3.36,242.93S110.84,482.5,242.94,482.5,482.51,375,482.51,242.93,375,3.36,242.94,3.36Z"/><circle class="cls-1" cx="80.38" cy="418.53" r="23.94"/></g></g></svg>
+</div>
+
+<div class="hero-bg-2">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.03 188.32"><defs><style>.cls-1{fill:#52525b;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Background"><path class="cls-1" d="M8.51,184.07a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,8.51,184.07Z"/><path class="cls-1" d="M35.72,184.07a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,184.07Z"/><path class="cls-1" d="M62.94,184.07a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,184.07Z"/><path class="cls-1" d="M90.16,184.07a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,90.16,184.07Z"/><path class="cls-1" d="M117.37,184.07a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,184.07Z"/><path class="cls-1" d="M144.59,184.07a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,184.07Z"/><path class="cls-1" d="M171.81,184.07a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,171.81,184.07Z"/><path class="cls-1" d="M199,184.07a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,199,184.07Z"/><path class="cls-1" d="M8.51,158.38a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,8.51,158.38Z"/><path class="cls-1" d="M35.72,158.38a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,158.38Z"/><path class="cls-1" d="M62.94,158.38a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,158.38Z"/><path class="cls-1" d="M90.16,158.38a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,90.16,158.38Z"/><path class="cls-1" d="M117.37,158.38a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,158.38Z"/><path class="cls-1" d="M144.59,158.38a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,158.38Z"/><path class="cls-1" d="M171.81,158.38a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,171.81,158.38Z"/><path class="cls-1" d="M199,158.38a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,199,158.38Z"/><path class="cls-1" d="M8.51,132.69a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,8.51,132.69Z"/><path class="cls-1" d="M35.72,132.69a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,132.69Z"/><path class="cls-1" d="M62.94,132.69a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,132.69Z"/><path class="cls-1" d="M90.16,132.69a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,90.16,132.69Z"/><path class="cls-1" d="M117.37,132.69a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,132.69Z"/><path class="cls-1" d="M144.59,132.69a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,132.69Z"/><path class="cls-1" d="M171.81,132.69a4.26,4.26,0,1,1-4.25-4.25A4.26,4.26,0,0,1,171.81,132.69Z"/><path class="cls-1" d="M199,132.69a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,199,132.69Z"/><path class="cls-1" d="M8.51,107a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,8.51,107Z"/><path class="cls-1" d="M35.72,107a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,107Z"/><path class="cls-1" d="M62.94,107a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,107Z"/><path class="cls-1" d="M90.16,107a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,90.16,107Z"/><path class="cls-1" d="M117.37,107a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,107Z"/><path class="cls-1" d="M144.59,107a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,107Z"/><path class="cls-1" d="M171.81,107a4.26,4.26,0,1,1-4.25-4.25A4.26,4.26,0,0,1,171.81,107Z"/><path class="cls-1" d="M199,107a4.26,4.26,0,1,1-4.26-4.25A4.26,4.26,0,0,1,199,107Z"/><path class="cls-1" d="M8.51,81.32a4.26,4.26,0,1,1-4.26-4.26A4.25,4.25,0,0,1,8.51,81.32Z"/><path class="cls-1" d="M35.72,81.32a4.25,4.25,0,1,1-4.25-4.26A4.25,4.25,0,0,1,35.72,81.32Z"/><path class="cls-1" d="M62.94,81.32a4.26,4.26,0,1,1-4.25-4.26A4.25,4.25,0,0,1,62.94,81.32Z"/><path class="cls-1" d="M90.16,81.32a4.26,4.26,0,1,1-4.26-4.26A4.25,4.25,0,0,1,90.16,81.32Z"/><path class="cls-1" d="M117.37,81.32a4.25,4.25,0,1,1-4.25-4.26A4.25,4.25,0,0,1,117.37,81.32Z"/><path class="cls-1" d="M144.59,81.32a4.25,4.25,0,1,1-4.25-4.26A4.25,4.25,0,0,1,144.59,81.32Z"/><path class="cls-1" d="M171.81,81.32a4.26,4.26,0,1,1-4.25-4.26A4.25,4.25,0,0,1,171.81,81.32Z"/><path class="cls-1" d="M199,81.32a4.26,4.26,0,1,1-4.26-4.26A4.25,4.25,0,0,1,199,81.32Z"/><path class="cls-1" d="M8.51,55.63a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,8.51,55.63Z"/><path class="cls-1" d="M35.72,55.63a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,55.63Z"/><path class="cls-1" d="M62.94,55.63a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,55.63Z"/><path class="cls-1" d="M90.16,55.63a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,90.16,55.63Z"/><path class="cls-1" d="M117.37,55.63a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,55.63Z"/><path class="cls-1" d="M144.59,55.63a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,55.63Z"/><path class="cls-1" d="M171.81,55.63a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,171.81,55.63Z"/><path class="cls-1" d="M199,55.63a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,199,55.63Z"/><path class="cls-1" d="M8.51,29.94a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,8.51,29.94Z"/><path class="cls-1" d="M35.72,29.94a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,35.72,29.94Z"/><path class="cls-1" d="M62.94,29.94a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,62.94,29.94Z"/><path class="cls-1" d="M90.16,29.94a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,90.16,29.94Z"/><path class="cls-1" d="M117.37,29.94a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,117.37,29.94Z"/><path class="cls-1" d="M144.59,29.94a4.25,4.25,0,1,1-4.25-4.25A4.25,4.25,0,0,1,144.59,29.94Z"/><path class="cls-1" d="M171.81,29.94a4.26,4.26,0,1,1-4.25-4.25A4.25,4.25,0,0,1,171.81,29.94Z"/><path class="cls-1" d="M199,29.94a4.26,4.26,0,1,1-4.26-4.25A4.25,4.25,0,0,1,199,29.94Z"/><path class="cls-1" d="M8.51,4.25A4.26,4.26,0,1,1,4.25,0,4.26,4.26,0,0,1,8.51,4.25Z"/><path class="cls-1" d="M35.72,4.25A4.25,4.25,0,1,1,31.47,0,4.25,4.25,0,0,1,35.72,4.25Z"/><path class="cls-1" d="M62.94,4.25A4.26,4.26,0,1,1,58.69,0,4.25,4.25,0,0,1,62.94,4.25Z"/><path class="cls-1" d="M90.16,4.25A4.26,4.26,0,1,1,85.9,0,4.26,4.26,0,0,1,90.16,4.25Z"/><path class="cls-1" d="M117.37,4.25A4.25,4.25,0,1,1,113.12,0,4.25,4.25,0,0,1,117.37,4.25Z"/><path class="cls-1" d="M144.59,4.25A4.25,4.25,0,1,1,140.34,0,4.25,4.25,0,0,1,144.59,4.25Z"/><path class="cls-1" d="M171.81,4.25A4.26,4.26,0,1,1,167.56,0,4.26,4.26,0,0,1,171.81,4.25Z"/><path class="cls-1" d="M199,4.25A4.26,4.26,0,1,1,194.77,0,4.26,4.26,0,0,1,199,4.25Z"/></g></g></svg>
+</div>
+
+<div class="container">
+    <div class="row d-flex justify-content-center align-items-center my-5">
+        <div class="col-lg-5">
+            <div class="mb-5 mb-lg-0">
+                <h1 class="mb-0 display-4 fw-bold">Hi, I'm <span class="pdf-text-red-500 fw-bold">PDF Color!</span></h1>
+                <p class="my-md-3 lh-lg">
+                    အရောင်တွေရွေးတာများလို့လိုက်ဖက်မည့်အရောင်ကိုရှာနေတာလား <br>
+                    <span class="pdf-text-red-500 fw-bold">PDF Color</span> ကိုသုံးလိုက်ပါ...
+                </p>
+                <div class="d-flex justify-content-start align-items-center">
+                    <button class="btn btn-danger rounded-pill p-2 pe-3 me-3 d-flex justify-content-center align-items-center">
+                        <div class="home-button rounded-circle border bg-white d-flex justify-content-center align-items-center me-2">
+                            <img src="access/img/contact.png" class="w-100 p-1" alt="">
+                            <!--<i class="fab fa-facebook-f fa-fw text-dark"></i>-->
+                        </div>
+                        Get in touch
+                    </button>
+                    <a href="https://sanlinhtik3.github.io/portfolio" target="_blank" class="btn btn-outline-danger border-2 rounded-pill p-3 px-4">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <div>
+                <img src="access/img/tiger.svg" class="w-75 home-e-img" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center align-items-center pt-5 mb-5">
+        <div class="col-lg-10">
+            <div class="border border-3 pdf-border-slat-800 p-3 p-lg-5 rounded-5 mf">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-lg-12 col-xl-6">
+                        <div class="row row-cols-2 row-cols-md-2 g-4 mb-4 mb-lg-4 mb-lg-0">
+                            <div class="col mt-lg-n1">
+                                <div class="card rounded-5 border-3 pdf-border-sky-500 pdf-bg-neutral-900 card-height">
+                                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                        <div class="mb-3">
+                                            <img src="access/img/telegram.png" class="w-100 _card-img" alt="">
+                                            <!--<i class="fas fa-home text-dark fa-5x"></i>-->
+                                        </div>
+                                        <h6 class="card-subtitle mb-2 pdf-text-sky-400">Telegram</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card rounded-5 border-3 pdf-border-red-500 pdf-bg-neutral-900 card-height">
+                                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                        <div class="mb-3">
+                                            <img src="access/img/Networking_perspective.png" class="w-100 _card-img" alt="">
+                                            <!--<i class="fas fa-home text-dark fa-5x"></i>-->
+                                        </div>
+                                        <h6 class="card-subtitle mb-2 pdf-text-red-500">Networking</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-lg-n1">
+                                <div class="card rounded-5 border-3 pdf-border-amber-500 pdf-bg-neutral-900 card-height">
+                                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                        <div class="mb-3">
+                                            <img src="access/img/Paint_roller_perspective.png" class="w-100 _card-img" alt="">
+                                            <!--<i class="fas fa-home text-dark fa-5x"></i>-->
+                                        </div>
+                                        <h6 class="card-subtitle pdf-text-amber-500 mb-2">Paints Roller</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card rounded-5 border-3 pdf-border-orange-500 pdf-bg-neutral-900 card-height">
+                                    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                        <div class="mb-3">
+                                            <img src="access/img/Paints_perspective.png" class="w-100 _card-img" alt="">
+                                            <!--<i class="fas fa-home text-dark fa-5x"></i>-->
+                                        </div>
+                                        <h6 class="card-subtitle pdf-text-orange-500 mb-2">Paints perspective</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="ms-xl-5">
+                            <div class="display-4 fw-bold mb-3">
+                                Let's make <br> meaningful <br> user interfaces
+                            </div>
+                            <div class="">
+                                <button class="btn btn-danger rounded-pill p-2 pe-3 me-3 d-flex justify-content-center align-items-center">
+                                    <div class="home-button rounded-circle border bg-white d-flex justify-content-center align-items-center me-2">
+                                        <i class="fab fa-facebook-f fa-fw text-dark"></i>
+                                    </div>
+                                    Facebook
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="pdf_color" class="container pt-3 mt-5">
+
+    <div class="row d-flex justify-content-center mb-4">
+        <div class="col-lg-10">
+            <h4 class="pdf-text-slat-200">Including files:</h4>
+            <pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;pdf-color/css/pdf.css&quot;&gt;</code></pre>
+
+            <h4 class="pdf-text-slat-200">Required HTML structure</h4>
+            <pre><code class="language-html">&lt;div class=&quot;pdf-bg-red-100&quot;&gt;This is Background Color&lt;/div&gt;
+&lt;div class=&quot;pdf-text-red-100&quot;&gt;This is Text Color&lt;/div&gt;
+&lt;div class=&quot;pdf-border-red-100&quot;&gt;This is Border Color&lt;/div&gt;</code></pre>
+
+            <h4 class="pdf-text-slat-200">CSS</h4>
+            <pre><code class="language-css">.text {
+    color: var(--pdf-red-500);
+    background-color: var(--pdf-red-500);
+    border-color: var(--pdf-red-500);
+}</code></pre>
+        </div>
+        <div class="col-lg-10">
+            <div class="card text-white mb-3 rounded-5 pdf-bg-green-100 pdf-border-green-500 border-3" style="max-width: 15rem;">
+                <div class="card-body">
+                    <div class="mb-3    ">
+                        <i class="fas fa-id-card fa-4x pdf-text-green-500"></i>
+                    </div>
+                    <h5 class="card-title pdf-text-green-500">Green card title</h5>
+                </div>
+            </div>
+            <div class="card text-white mb-3 rounded-5 pdf-bg-violet-100 pdf-border-violet-500 border-3" style="max-width: 15rem;">
+                <div class="card-body">
+                    <div class="mb-3    ">
+                        <i class="fas fa-id-card fa-4x pdf-text-violet-500"></i>
+                    </div>
+                    <h5 class="card-title pdf-text-violet-500">Violet card title</h5>
+                </div>
+            </div>
+            <div class="card text-white mb-3 rounded-5 pdf-bg-red-100 pdf-border-red-500 border-3" style="max-width: 15rem;">
+                <div class="card-body">
+                    <div class="mb-3    ">
+                        <i class="fas fa-id-card fa-4x pdf-text-red-500"></i>
+                    </div>
+                    <h5 class="card-title pdf-text-red-500">Red card title</h5>
+                </div>
+            </div>
+            <div class="card text-white mb-3 rounded-5 pdf-bg-zinc-100 pdf-border-zinc-500 border-3" style="max-width: 15rem;">
+                <div class="card-body">
+                    <div class="mb-3    ">
+                        <i class="fas fa-id-card fa-4x pdf-text-zinc-500"></i>
+                    </div>
+                    <h5 class="card-title pdf-text-zinc-500">Zinc card title</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-10">
+            <div class="">
+                <pre>
+                    <code class="language-html">
+&lt;div class=&quot;card text-white mb-3 rounded-5 pdf-bg-green-100 pdf-border-green-500 border-3&quot; style=&quot;max-width: 15rem;&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;div class=&quot;mb-3    &quot;&gt;
+            &lt;i class=&quot;fas fa-id-card fa-4x pdf-text-green-500&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h5 class=&quot;card-title pdf-text-green-500&quot;&gt;Green card title&lt;/h5&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card text-white mb-3 rounded-5 pdf-bg-violet-100 pdf-border-violet-500 border-3&quot; style=&quot;max-width: 15rem;&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;div class=&quot;mb-3    &quot;&gt;
+            &lt;i class=&quot;fas fa-id-card fa-4x pdf-text-violet-500&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h5 class=&quot;card-title pdf-text-violet-500&quot;&gt;Violet card title&lt;/h5&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card text-white mb-3 rounded-5 pdf-bg-red-100 pdf-border-red-500 border-3&quot; style=&quot;max-width: 15rem;&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;div class=&quot;mb-3    &quot;&gt;
+            &lt;i class=&quot;fas fa-id-card fa-4x pdf-text-red-500&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h5 class=&quot;card-title pdf-text-red-500&quot;&gt;Red card title&lt;/h5&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card text-white mb-3 rounded-5 pdf-bg-zinc-100 pdf-border-zinc-500 border-3&quot; style=&quot;max-width: 15rem;&quot;&gt;
+    &lt;div class=&quot;card-body&quot;&gt;
+        &lt;div class=&quot;mb-3    &quot;&gt;
+            &lt;i class=&quot;fas fa-id-card fa-4x pdf-text-zinc-500&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h5 class=&quot;card-title pdf-text-zinc-500&quot;&gt;Zinc card title&lt;/h5&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- color section-->
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-10">
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Slate</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#f8fafc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#f1f5f9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#e2e8f0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#cbd5e1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#94a3b8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#64748b</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#475569</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#334155</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#1e293b</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-slat-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#0f172a</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Gray</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#f9fafb</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#f3f4f6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#e5e7eb</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#d1d5db</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#9ca3af</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#6b7280</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#4b5563</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#374151</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#1f2937</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-gray-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#111827</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Zinc</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fafafa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#f4f4f5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#e4e4e7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#d4d4d8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#a1a1aa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#71717a</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#52525b</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#3f3f46</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#27272a</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-zinc-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#18181b</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Neutral</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fafafa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#f5f5f5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#e5e5e5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#d4d4d4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#a3a3a3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#737373</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#525252</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#404040</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#262626</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-neutral-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#171717</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Stone</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fafaf9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#f5f5f4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#e7e5e4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#d6d3d1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#a8a29e</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#78716c</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#57534e</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#44403c</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#292524</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-stone-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#1c1917</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Red</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fef2f2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#fee2e2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#fecaca</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#fca5a5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#f87171</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#ef4444</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#dc2626</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#b91c1c</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#991b1b</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-red-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#7f1d1d</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Orange</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fff7ed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#ffedd5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#fed7aa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#fdba74</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#fb923c</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#f97316</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#ea580c</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#c2410c</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#9a3412</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-orange-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#7c2d12</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Amber</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fffbeb</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#fef3c7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#fde68a</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#fcd34d</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#fbbf24</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#f59e0b</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#d97706</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#b45309</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#92400e</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-amber-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#78350f</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Yellow</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fefce8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#fef9c3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#fef08a</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#fde047</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#facc15</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#eab308</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#ca8a04</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#a16207</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#854d0e</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-yellow-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#713f12</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Lime</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#f7fee7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#ecfccb</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#d9f99d</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#bef264</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#a3e635</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#84cc16</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#65a30d</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#4d7c0f</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#3f6212</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-lime-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#365314</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Green</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#f0fdf4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#dcfce7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#bbf7d0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#86efac</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#4ade80</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#22c55e</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#16a34a</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#15803d</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#166534</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-green-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#14532d</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Emerald</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#ecfdf5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#d1fae5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#a7f3d0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#6ee7b7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#34d399</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#10b981</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#059669</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#047857</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#065f46</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-emerald-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#064e3b</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Teal</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#f0fdfa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#ccfbf1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#99f6e4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#5eead4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#2dd4bf</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#14b8a6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#0d9488</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#0f766e</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#115e59</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-teal-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#134e4a</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Cyan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#ecfeff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#cffafe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#a5f3fc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#67e8f9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#22d3ee</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#06b6d4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#0891b2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#0e7490</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#155e75</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-cyan-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#164e63</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Sky</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#f0f9ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#e0f2fe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#bae6fd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#7dd3fc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#38bdf8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#0ea5e9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#0284c7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#0369a1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#075985</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-sky-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#0c4a6e</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Blue</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#eff6ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#dbeafe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#bfdbfe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#93c5fd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#60a5fa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#3b82f6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#2563eb</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#1d4ed8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#1e40af</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-blue-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#1e3a8a</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Indigo</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#eef2ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#e0e7ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#c7d2fe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#a5b4fc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#818cf8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#6366f1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#4f46e5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#4338ca</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#3730a3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-indigo-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#312e81</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Violet</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#f5f3ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#ede9fe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#ddd6fe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#c4b5fd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#a78bfa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#8b5cf6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#7c3aed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#6d28d9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#5b21b6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-violet-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#4c1d95</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Purple</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#faf5ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#f3e8ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#e9d5ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#d8b4fe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#c084fc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#a855f7</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#9333ea</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#7e22ce</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#6b21a8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-purple-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#581c87</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Fuchsia</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fdf4ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#fae8ff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#f5d0fe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#f0abfc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#e879f9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#d946ef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#c026d3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#a21caf</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#86198f</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-fuchsia-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#701a75</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Pink</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fdf2f8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#fce7f3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#fbcfe8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#f9a8d4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#f472b6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#ec4899</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#db2777</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#be185d</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#9d174d</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#831843</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-5 g-2 mb-4">
+                <div class="col-12 col-xl-2 mb-3 mb-xl-0">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mb-0">Rose</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-50"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">50</p>
+                            <p class="color-box-text">#fff1f2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-100"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">100</p>
+                            <p class="color-box-text">#ffe4e6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-200"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">200</p>
+                            <p class="color-box-text">#fecdd3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-300"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">300</p>
+                            <p class="color-box-text">#fda4af</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-400"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">400</p>
+                            <p class="color-box-text">#fb7185</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-500"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">500</p>
+                            <p class="color-box-text">#f43f5e</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-600"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">600</p>
+                            <p class="color-box-text">#e11d48</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-700"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">700</p>
+                            <p class="color-box-text">#be123c</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-800"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">800</p>
+                            <p class="color-box-text">#9f1239</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xl-1">
+                    <div class="card border-0">
+                        <div class="color-box pdf-bg-pink-900"></div>
+                        <div class="color-box-text card-body p-0 mt-1">
+                            <p class="color-box-title fw-bold mb-0">900</p>
+                            <p class="color-box-text">#881337</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js" integrity="sha512-Pbb8o120v5/hN/a6LjF4N4Lxou+xYZ0QcVF8J6TWhBbHmctQWd8O6xTDmHpE/91OjPzCk4JRoiJsexHYg4SotQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="node_modules/highlight.js/lib/languages/javascript.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>

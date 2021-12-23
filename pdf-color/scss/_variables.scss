@@ -1,0 +1,506 @@
+$pdf-slate-50: #f8fafc;
+$pdf-slate-100: #f1f5f9;
+$pdf-slate-200: #e2e8f0;
+$pdf-slate-300: #cbd5e1;
+$pdf-slate-400: #94a3b8;
+$pdf-slate-500: #64748b;
+$pdf-slate-600: #475569;
+$pdf-slate-700: #334155;
+$pdf-slate-800: #1e293b;
+$pdf-slate-900: #0f172a;
+$pdf-gray-50: #f9fafb;
+$pdf-gray-100: #f3f4f6;
+$pdf-gray-200: #e5e7eb;
+$pdf-gray-300: #d1d5db;
+$pdf-gray-400: #9ca3af;
+$pdf-gray-500: #6b7280;
+$pdf-gray-600: #4b5563;
+$pdf-gray-700: #374151;
+$pdf-gray-800: #1f2937;
+$pdf-gray-900: #111827;
+$pdf-zinc-50: #fafafa;
+$pdf-zinc-100: #f4f4f5;
+$pdf-zinc-200: #e4e4e7;
+$pdf-zinc-300: #d4d4d8;
+$pdf-zinc-400: #a1a1aa;
+$pdf-zinc-500: #71717a;
+$pdf-zinc-600: #52525b;
+$pdf-zinc-700: #3f3f46;
+$pdf-zinc-800: #27272a;
+$pdf-zinc-900: #18181b;
+$pdf-neutral-50: #fafafa;
+$pdf-neutral-100: #f5f5f5;
+$pdf-neutral-200: #e5e5e5;
+$pdf-neutral-300: #d4d4d4;
+$pdf-neutral-400: #a3a3a3;
+$pdf-neutral-500: #737373;
+$pdf-neutral-600: #525252;
+$pdf-neutral-700: #404040;
+$pdf-neutral-800: #262626;
+$pdf-neutral-900: #171717;
+$pdf-stone-50: #fafaf9;
+$pdf-stone-100: #f5f5f4;
+$pdf-stone-200: #e7e5e4;
+$pdf-stone-300: #d6d3d1;
+$pdf-stone-400: #a8a29e;
+$pdf-stone-500: #78716c;
+$pdf-stone-600: #57534e;
+$pdf-stone-700: #44403c;
+$pdf-stone-800: #292524;
+$pdf-stone-900: #1c1917;
+$pdf-red-50: #fef2f2;
+$pdf-red-100: #fee2e2;
+$pdf-red-200: #fecaca;
+$pdf-red-300: #fca5a5;
+$pdf-red-400: #f87171;
+$pdf-red-500: #ef4444;
+$pdf-red-600: #dc2626;
+$pdf-red-700: #b91c1c;
+$pdf-red-800: #991b1b;
+$pdf-red-900: #7f1d1d;
+$pdf-orange-50: #fff7ed;
+$pdf-orange-100: #ffedd5;
+$pdf-orange-200: #fed7aa;
+$pdf-orange-300: #fdba74;
+$pdf-orange-400: #fb923c;
+$pdf-orange-500: #f97316;
+$pdf-orange-600: #ea580c;
+$pdf-orange-700: #c2410c;
+$pdf-orange-800: #9a3412;
+$pdf-orange-900: #7c2d12;
+$pdf-amber-50: #fffbeb;
+$pdf-amber-100: #fef3c7;
+$pdf-amber-200: #fde68a;
+$pdf-amber-300: #fcd34d;
+$pdf-amber-400: #fbbf24;
+$pdf-amber-500: #f59e0b;
+$pdf-amber-600: #d97706;
+$pdf-amber-700: #b45309;
+$pdf-amber-800: #92400e;
+$pdf-amber-900: #78350f;
+$pdf-yellow-50: #fefce8;
+$pdf-yellow-100: #fef9c3;
+$pdf-yellow-200: #fef08a;
+$pdf-yellow-300: #fde047;
+$pdf-yellow-400: #facc15;
+$pdf-yellow-500: #eab308;
+$pdf-yellow-600: #ca8a04;
+$pdf-yellow-700: #a16207;
+$pdf-yellow-800: #854d0e;
+$pdf-yellow-900: #713f12;
+$pdf-lime-50: #f7fee7;
+$pdf-lime-100: #ecfccb;
+$pdf-lime-200: #d9f99d;
+$pdf-lime-300: #bef264;
+$pdf-lime-400: #a3e635;
+$pdf-lime-500: #84cc16;
+$pdf-lime-600: #65a30d;
+$pdf-lime-700: #4d7c0f;
+$pdf-lime-800: #3f6212;
+$pdf-lime-900: #365314;
+$pdf-green-50: #f0fdf4;
+$pdf-green-100: #dcfce7;
+$pdf-green-200: #bbf7d0;
+$pdf-green-300: #86efac;
+$pdf-green-400: #4ade80;
+$pdf-green-500: #22c55e;
+$pdf-green-600: #16a34a;
+$pdf-green-700: #15803d;
+$pdf-green-800: #166534;
+$pdf-green-900: #14532d;
+$pdf-emerald-50: #ecfdf5;
+$pdf-emerald-100: #d1fae5;
+$pdf-emerald-200: #a7f3d0;
+$pdf-emerald-300: #6ee7b7;
+$pdf-emerald-400: #34d399;
+$pdf-emerald-500: #10b981;
+$pdf-emerald-600: #059669;
+$pdf-emerald-700: #047857;
+$pdf-emerald-800: #065f46;
+$pdf-emerald-900: #064e3b;
+$pdf-teal-50: #f0fdfa;
+$pdf-teal-100: #ccfbf1;
+$pdf-teal-200: #99f6e4;
+$pdf-teal-300: #5eead4;
+$pdf-teal-400: #2dd4bf;
+$pdf-teal-500: #14b8a6;
+$pdf-teal-600: #0d9488;
+$pdf-teal-700: #0f766e;
+$pdf-teal-800: #115e59;
+$pdf-teal-900: #134e4a;
+$pdf-cyan-50: #ecfeff;
+$pdf-cyan-100: #cffafe;
+$pdf-cyan-200: #a5f3fc;
+$pdf-cyan-300: #67e8f9;
+$pdf-cyan-400: #22d3ee;
+$pdf-cyan-500: #06b6d4;
+$pdf-cyan-600: #0891b2;
+$pdf-cyan-700: #0e7490;
+$pdf-cyan-800: #155e75;
+$pdf-cyan-900: #164e63;
+$pdf-sky-50: #f0f9ff;
+$pdf-sky-100: #e0f2fe;
+$pdf-sky-200: #bae6fd;
+$pdf-sky-300: #7dd3fc;
+$pdf-sky-400: #38bdf8;
+$pdf-sky-500: #0ea5e9;
+$pdf-sky-600: #0284c7;
+$pdf-sky-700: #0369a1;
+$pdf-sky-800: #075985;
+$pdf-sky-900: #0c4a6e;
+$pdf-blue-50: #eff6ff;
+$pdf-blue-100: #dbeafe;
+$pdf-blue-200: #bfdbfe;
+$pdf-blue-300: #93c5fd;
+$pdf-blue-400: #60a5fa;
+$pdf-blue-500: #3b82f6;
+$pdf-blue-600: #2563eb;
+$pdf-blue-700: #1d4ed8;
+$pdf-blue-800: #1e40af;
+$pdf-blue-900: #1e3a8a;
+$pdf-indigo-50: #eef2ff;
+$pdf-indigo-100: #e0e7ff;
+$pdf-indigo-200: #c7d2fe;
+$pdf-indigo-300: #a5b4fc;
+$pdf-indigo-400: #818cf8;
+$pdf-indigo-500: #6366f1;
+$pdf-indigo-600: #4f46e5;
+$pdf-indigo-700: #4338ca;
+$pdf-indigo-800: #3730a3;
+$pdf-indigo-900: #312e81;
+$pdf-violet-50: #f5f3ff;
+$pdf-violet-100: #ede9fe;
+$pdf-violet-200: #ddd6fe;
+$pdf-violet-300: #c4b5fd;
+$pdf-violet-400: #a78bfa;
+$pdf-violet-500: #8b5cf6;
+$pdf-violet-600: #7c3aed;
+$pdf-violet-700: #6d28d9;
+$pdf-violet-800: #5b21b6;
+$pdf-violet-900: #4c1d95;
+$pdf-purple-50: #faf5ff;
+$pdf-purple-100: #f3e8ff;
+$pdf-purple-200: #e9d5ff;
+$pdf-purple-300: #d8b4fe;
+$pdf-purple-400: #c084fc;
+$pdf-purple-500: #a855f7;
+$pdf-purple-600: #9333ea;
+$pdf-purple-700: #7e22ce;
+$pdf-purple-800: #6b21a8;
+$pdf-purple-900: #581c87;
+$pdf-fuchsia-50: #fdf4ff;
+$pdf-fuchsia-100: #fae8ff;
+$pdf-fuchsia-200: #f5d0fe;
+$pdf-fuchsia-300: #f0abfc;
+$pdf-fuchsia-400: #e879f9;
+$pdf-fuchsia-500: #d946ef;
+$pdf-fuchsia-600: #c026d3;
+$pdf-fuchsia-700: #a21caf;
+$pdf-fuchsia-800: #86198f;
+$pdf-fuchsia-900: #701a75;
+$pdf-pink-50: #fdf2f8;
+$pdf-pink-100: #fce7f3;
+$pdf-pink-200: #fbcfe8;
+$pdf-pink-300: #f9a8d4;
+$pdf-pink-400: #f472b6;
+$pdf-pink-500: #ec4899;
+$pdf-pink-600: #db2777;
+$pdf-pink-700: #be185d;
+$pdf-pink-800: #9d174d;
+$pdf-pink-900: #831843;
+$pdf-rose-50: #fff1f2;
+$pdf-rose-100: #ffe4e6;
+$pdf-rose-200: #fecdd3;
+$pdf-rose-300: #fda4af;
+$pdf-rose-400: #fb7185;
+$pdf-rose-500: #f43f5e;
+$pdf-rose-600: #e11d48;
+$pdf-rose-700: #be123c;
+$pdf-rose-800: #9f1239;
+$pdf-rose-900: #881337;
+
+$slates: (
+    "50": $pdf-slate-50,
+    "100": $pdf-slate-100,
+    "200": $pdf-slate-200,
+    "300": $pdf-slate-300,
+    "400": $pdf-slate-400,
+    "500": $pdf-slate-500,
+    "600": $pdf-slate-600,
+    "700": $pdf-slate-700,
+    "800": $pdf-slate-800,
+    "900": $pdf-slate-900
+) !default;
+
+$grays: (
+    "50": $pdf-gray-50,
+    "100": $pdf-gray-100,
+    "200": $pdf-gray-200,
+    "300": $pdf-gray-300,
+    "400": $pdf-gray-400,
+    "500": $pdf-gray-500,
+    "600": $pdf-gray-600,
+    "700": $pdf-gray-700,
+    "800": $pdf-gray-800,
+    "900": $pdf-gray-900
+) !default;
+
+$zincs: (
+    "50": $pdf-zinc-50,
+    "100": $pdf-zinc-100,
+    "200": $pdf-zinc-200,
+    "300": $pdf-zinc-300,
+    "400": $pdf-zinc-400,
+    "500": $pdf-zinc-500,
+    "600": $pdf-zinc-600,
+    "700": $pdf-zinc-700,
+    "800": $pdf-zinc-800,
+    "900": $pdf-zinc-900
+) !default;
+
+$neutrals: (
+        "50": $pdf-neutral-50,
+        "100": $pdf-neutral-100,
+        "200": $pdf-neutral-200,
+        "300": $pdf-neutral-300,
+        "400": $pdf-neutral-400,
+        "500": $pdf-neutral-500,
+        "600": $pdf-neutral-600,
+        "700": $pdf-neutral-700,
+        "800": $pdf-neutral-800,
+        "900": $pdf-neutral-900
+) !default;
+
+$stones: (
+    "50": $pdf-stone-50,
+    "100": $pdf-stone-100,
+    "200": $pdf-stone-200,
+    "300": $pdf-stone-300,
+    "400": $pdf-stone-400,
+    "500": $pdf-stone-500,
+    "600": $pdf-stone-600,
+    "700": $pdf-stone-700,
+    "800": $pdf-stone-800,
+    "900": $pdf-stone-900
+) !default;
+
+$reds: (
+    "50": $pdf-red-50,
+    "100": $pdf-red-100,
+    "200": $pdf-red-200,
+    "300": $pdf-red-300,
+    "400": $pdf-red-400,
+    "500": $pdf-red-500,
+    "600": $pdf-red-600,
+    "700": $pdf-red-700,
+    "800": $pdf-red-800,
+    "900": $pdf-red-900
+) !default;
+
+$oranges: (
+    "50": $pdf-orange-50,
+    "100": $pdf-orange-100,
+    "200": $pdf-orange-200,
+    "300": $pdf-orange-300,
+    "400": $pdf-orange-400,
+    "500": $pdf-orange-500,
+    "600": $pdf-orange-600,
+    "700": $pdf-orange-700,
+    "800": $pdf-orange-800,
+    "900": $pdf-orange-900
+) !default;
+
+$ambers: (
+    "50": $pdf-amber-50,
+    "100": $pdf-amber-100,
+    "200": $pdf-amber-200,
+    "300": $pdf-amber-300,
+    "400": $pdf-amber-400,
+    "500": $pdf-amber-500,
+    "600": $pdf-amber-600,
+    "700": $pdf-amber-700,
+    "800": $pdf-amber-800,
+    "900": $pdf-amber-900
+) !default;
+
+$yellows: (
+    "50": $pdf-yellow-50,
+    "100": $pdf-yellow-100,
+    "200": $pdf-yellow-200,
+    "300": $pdf-yellow-300,
+    "400": $pdf-yellow-400,
+    "500": $pdf-yellow-500,
+    "600": $pdf-yellow-600,
+    "700": $pdf-yellow-700,
+    "800": $pdf-yellow-800,
+    "900": $pdf-yellow-900
+) !default;
+
+$limes: (
+    "50": $pdf-lime-50,
+    "100": $pdf-lime-100,
+    "200": $pdf-lime-200,
+    "300": $pdf-lime-300,
+    "400": $pdf-lime-400,
+    "500": $pdf-lime-500,
+    "600": $pdf-lime-600,
+    "700": $pdf-lime-700,
+    "800": $pdf-lime-800,
+    "900": $pdf-lime-900
+) !default;
+
+$greens: (
+    "50": $pdf-green-50,
+    "100": $pdf-green-100,
+    "200": $pdf-green-200,
+    "300": $pdf-green-300,
+    "400": $pdf-green-400,
+    "500": $pdf-green-500,
+    "600": $pdf-green-600,
+    "700": $pdf-green-700,
+    "800": $pdf-green-800,
+    "900": $pdf-green-900
+) !default;
+
+$emeralds: (
+    "50": $pdf-emerald-50,
+    "100": $pdf-emerald-100,
+    "200": $pdf-emerald-200,
+    "300": $pdf-emerald-300,
+    "400": $pdf-emerald-400,
+    "500": $pdf-emerald-500,
+    "600": $pdf-emerald-600,
+    "700": $pdf-emerald-700,
+    "800": $pdf-emerald-800,
+    "900": $pdf-emerald-900
+) !default;
+
+$teals: (
+    "50": $pdf-teal-50,
+    "100": $pdf-teal-100,
+    "200": $pdf-teal-200,
+    "300": $pdf-teal-300,
+    "400": $pdf-teal-400,
+    "500": $pdf-teal-500,
+    "600": $pdf-teal-600,
+    "700": $pdf-teal-700,
+    "800": $pdf-teal-800,
+    "900": $pdf-teal-900
+) !default;
+
+$cyans: (
+    "50": $pdf-cyan-50,
+    "100": $pdf-cyan-100,
+    "200": $pdf-cyan-200,
+    "300": $pdf-cyan-300,
+    "400": $pdf-cyan-400,
+    "500": $pdf-cyan-500,
+    "600": $pdf-cyan-600,
+    "700": $pdf-cyan-700,
+    "800": $pdf-cyan-800,
+    "900": $pdf-cyan-900
+) !default;
+
+$skys: (
+    "50": $pdf-sky-50,
+    "100": $pdf-sky-100,
+    "200": $pdf-sky-200,
+    "300": $pdf-sky-300,
+    "400": $pdf-sky-400,
+    "500": $pdf-sky-500,
+    "600": $pdf-sky-600,
+    "700": $pdf-sky-700,
+    "800": $pdf-sky-800,
+    "900": $pdf-sky-900
+) !default;
+
+$blues: (
+    "50": $pdf-blue-50,
+    "100": $pdf-blue-100,
+    "200": $pdf-blue-200,
+    "300": $pdf-blue-300,
+    "400": $pdf-blue-400,
+    "500": $pdf-blue-500,
+    "600": $pdf-blue-600,
+    "700": $pdf-blue-700,
+    "800": $pdf-blue-800,
+    "900": $pdf-blue-900
+) !default;
+
+$indigos: (
+    "50": $pdf-indigo-50,
+    "100": $pdf-indigo-100,
+    "200": $pdf-indigo-200,
+    "300": $pdf-indigo-300,
+    "400": $pdf-indigo-400,
+    "500": $pdf-indigo-500,
+    "600": $pdf-indigo-600,
+    "700": $pdf-indigo-700,
+    "800": $pdf-indigo-800,
+    "900": $pdf-indigo-900
+) !default;
+
+$violets: (
+    "50": $pdf-violet-50,
+    "100": $pdf-violet-100,
+    "200": $pdf-violet-200,
+    "300": $pdf-violet-300,
+    "400": $pdf-violet-400,
+    "500": $pdf-violet-500,
+    "600": $pdf-violet-600,
+    "700": $pdf-violet-700,
+    "800": $pdf-violet-800,
+    "900": $pdf-violet-900
+) !default;
+
+$purples: (
+    "50": $pdf-purple-50,
+    "100": $pdf-purple-100,
+    "200": $pdf-purple-200,
+    "300": $pdf-purple-300,
+    "400": $pdf-purple-400,
+    "500": $pdf-purple-500,
+    "600": $pdf-purple-600,
+    "700": $pdf-purple-700,
+    "800": $pdf-purple-800,
+    "900": $pdf-purple-900
+) !default;
+
+$fuchsias: (
+    "50": $pdf-fuchsia-50,
+    "100": $pdf-fuchsia-100,
+    "200": $pdf-fuchsia-200,
+    "300": $pdf-fuchsia-300,
+    "400": $pdf-fuchsia-400,
+    "500": $pdf-fuchsia-500,
+    "600": $pdf-fuchsia-600,
+    "700": $pdf-fuchsia-700,
+    "800": $pdf-fuchsia-800,
+    "900": $pdf-fuchsia-900
+) !default;
+
+$pinks: (
+    "50": $pdf-pink-50,
+    "100": $pdf-pink-100,
+    "200": $pdf-pink-200,
+    "300": $pdf-pink-300,
+    "400": $pdf-pink-400,
+    "500": $pdf-pink-500,
+    "600": $pdf-pink-600,
+    "700": $pdf-pink-700,
+    "800": $pdf-pink-800,
+    "900": $pdf-pink-900
+) !default;
+
+$roses: (
+    "50": $pdf-pink-50,
+    "100": $pdf-pink-100,
+    "200": $pdf-pink-200,
+    "300": $pdf-pink-300,
+    "400": $pdf-pink-400,
+    "500": $pdf-pink-500,
+    "600": $pdf-pink-600,
+    "700": $pdf-pink-700,
+    "800": $pdf-pink-800,
+    "900": $pdf-pink-900
+) !default;

@@ -1,0 +1,392 @@
+/*
+|
+|------------------
+| Docs :
+| Version : 1.0.0
+| Auth : SLH
+| Copyright : 2021
+|-----------------
+|
+*/
+
+
+@import 'variables';
+
+$name: "pdf";
+
+:root {
+  @each $num, $color in $slates {
+    --#{$name}-slate-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $grays {
+    --#{$name}-gray-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $zincs {
+    --#{$name}-zinc-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $neutrals {
+    --#{$name}-neutral-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $stones {
+    --#{$name}-stone-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $reds {
+    --#{$name}-red-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $oranges {
+    --#{$name}-orange-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $ambers {
+    --#{$name}-amber-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $yellows {
+    --#{$name}-yellow-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $limes {
+    --#{$name}-lime-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $greens {
+    --#{$name}-green-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $emeralds {
+    --#{$name}-emerald-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $teals {
+    --#{$name}-teal-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $cyans {
+    --#{$name}-cyan-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $skys {
+    --#{$name}-sky-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $blues {
+    --#{$name}-blue-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $indigos {
+    --#{$name}-indigo-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $violets {
+    --#{$name}-violet-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $purples {
+    --#{$name}-purple-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $fuchsias {
+    --#{$name}-fuchsia-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $pinks {
+    --#{$name}-pink-#{$num}: #{$color}!important;
+  }
+  @each $num, $color in $roses {
+    --#{$name}-rose-#{$num}: #{$color}!important;
+  }
+}
+
+@each $num, $color in $slates {
+  .#{$name} {
+    &-text-slat-#{$num} {
+      color: $color!important;
+    }
+    &-bg-slat-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-slat-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $grays {
+  .#{$name} {
+    &-text-gray-#{$num} {
+      color: $color!important;
+    }
+    &-bg-gray-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-gray-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $zincs {
+  .#{$name} {
+    &-text-zinc-#{$num} {
+      color: $color!important;
+    }
+    &-bg-zinc-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-zinc-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $neutrals {
+  .#{$name} {
+    &-text-neutral-#{$num} {
+      color: $color!important;
+    }
+    &-bg-neutral-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-neutral-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $stones {
+  .#{$name} {
+    &-text-stone-#{$num} {
+      color: $color!important;
+    }
+    &-bg-stone-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-stone-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $reds {
+  .#{$name} {
+    &-text-red-#{$num} {
+      color: $color!important;
+    }
+    &-bg-red-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-red-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $oranges {
+  .#{$name} {
+    &-text-orange-#{$num} {
+      color: $color!important;
+    }
+    &-bg-orange-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-orange-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $ambers {
+  .#{$name} {
+    &-text-amber-#{$num} {
+      color: $color!important;
+    }
+    &-bg-amber-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-amber-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $yellows {
+  .#{$name} {
+    &-text-yellow-#{$num} {
+      color: $color!important;
+    }
+    &-bg-yellow-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-yellow-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $limes {
+  .#{$name} {
+    &-text-lime-#{$num} {
+      color: $color!important;
+    }
+    &-bg-lime-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-lime-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $greens {
+  .#{$name} {
+    &-text-green-#{$num} {
+      color: $color!important;
+    }
+    &-bg-green-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-green-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $emeralds {
+  .#{$name} {
+    &-text-emerald-#{$num} {
+      color: $color!important;
+    }
+    &-bg-emerald-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-emerald-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $teals {
+  .#{$name} {
+    &-text-teal-#{$num} {
+      color: $color!important;
+    }
+    &-bg-teal-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-teal-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $cyans {
+  .#{$name} {
+    &-text-cyan-#{$num} {
+      color: $color!important;
+    }
+    &-bg-cyan-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-cyan-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $skys {
+  .#{$name} {
+    &-text-sky-#{$num} {
+      color: $color!important;
+    }
+    &-bg-sky-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-sky-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $blues {
+  .#{$name} {
+    &-text-blue-#{$num} {
+      color: $color!important;
+    }
+    &-bg-blue-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-blue-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $indigos {
+  .#{$name} {
+    &-text-indigo-#{$num} {
+      color: $color!important;
+    }
+    &-bg-indigo-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-indigo-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $violets {
+  .#{$name} {
+    &-text-violet-#{$num} {
+      color: $color!important;
+    }
+    &-bg-violet-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-violet-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $purples {
+  .#{$name} {
+    &-text-purple-#{$num} {
+      color: $color!important;
+    }
+    &-bg-purple-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-purple-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $fuchsias {
+  .#{$name} {
+    &-text-fuchsia-#{$num} {
+      color: $color!important;
+    }
+    &-bg-fuchsia-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-fuchsia-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $pinks {
+  .#{$name} {
+    &-text-pink-#{$num} {
+      color: $color!important;
+    }
+    &-bg-pink-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-pink-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}
+
+@each $num, $color in $roses {
+  .#{$name} {
+    &-text-rose-#{$num} {
+      color: $color!important;
+    }
+    &-bg-rose-#{$num} {
+      background-color: $color!important;
+    }
+    &-border-rose-#{$num} {
+      border-color: $color!important;
+    }
+  }
+}

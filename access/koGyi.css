@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "mm";
+    font-weight: normal;
+    src: url("fonts/MyanmarSagar.ttf");
+}
+*{
+    font-family: "Cera Round Pro", mm;
+    color: var(--pdf-slate-200);
+}
+body {
+    background-color: #010409;
+}
+.home-button {
+    width: 40px;
+    height: 40px;
+}
+.rounded-5 {
+    border-radius: 15px;
+}
+.card-height {
+    height: 14rem;
+}
+.card {
+    background-color: transparent;
+}
+._card-img {
+    width: 5rem!important;
+}
+
+.mf {
+    background-image: linear-gradient(to right top, #010409, #07090e, #0c0d11, #101114, #141417, #16171a, #19191c, #1b1c1f, #1e1f22, #202226, #232529, #25282d);
+}
+
+.hero-bg {
+    width: 5rem;
+    position: absolute;
+    top: 15.5rem;
+    left: 11.625rem;
+    z-index: -8;
+}
+
+.hero-bg-1 {
+    width: 20rem;
+    position: absolute;
+    top: -13.813rem;
+    right: 25rem;
+    z-index: -8;
+}
+
+.hero-bg-2 {
+    width: 4rem;
+    position: absolute;
+    top: 9.25rem;
+    right: 24.125rem;
+    z-index: -8;
+}
+
+.cls-1,
+.cls-2{
+    fill: #52525b!important;
+}
+
+/*Color Area*/
+.color-box {
+    width: 100%;
+    height: 2rem;
+    border-radius: .25rem;
+}
+
+.color-box-text {
+    font-size: .75rem!important;
+    color: var(--pdf-slate-50)!important;
+}
+.hljs {
+    border-radius: .625rem;
+}
+
+@media screen and (max-width: 768px){
+    .card-height {
+        height: 15rem;
+    }
+    .hero-bg {
+        width: 7rem;
+        top: 13rem;
+        left: -3.375rem;
+    }
+    .hero-bg-1 {
+        right: 7rem;
+    }
+    .hero-bg-2 {
+        width: 7rem;
+        top: 30.187rem;
+        right: 18rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .card-height {
+        height: 10rem;
+    }
+    .home-e-img {
+        width: 70% !important;
+    }
+    .hero-bg{
+        width: 5rem;
+    }
+    .hero-bg-1 {
+        width: 10rem;
+        top: -5.813rem;
+        right: 5rem;
+    }
+    .hero-bg-2 {
+        width: 4rem;
+        top: 24.187rem;
+        right: 12rem;
+    }
+
+
+
+}
